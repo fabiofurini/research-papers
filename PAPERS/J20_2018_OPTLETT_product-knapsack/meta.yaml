@@ -23,7 +23,7 @@ note: null
 abstract: Given a set of items, each characterized by a profit and a weight, we study the problem of maximizing
   the product of the profits of the selected items, while respecting a given capacity. To the best of
   our knowledge this is the first manuscript that studies this variant of the knapsack problem which we
-  call Product Knapsack Problem (PKP). We show that PKP is weakly NP-hard. We propose and implement a
-  Dynamic Programming algorithm and different Mixed Integer Linear and Nonlinear Programming formulations
-  for the PKP. Finally, we present an extensive computa- tional study on a large set of benchmark instances
-  derived from the literature
+  call Product Knapsack Problem. We show that PKP is weakly NP-hard. We propose and implement a Dynamic
+  Programming algorithm and different Mixed Integer Linear and Nonlinear Programming formulations for
+  the. Finally, we present an extensive computational study on a large set of benchmark instances derived
+  from the literature.

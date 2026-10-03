@@ -27,8 +27,8 @@ abstract: We consider a generalization of the 0-1 knapsack problem in which the 
   solution. The interval min-max regret knapsack problem (MRKP) is then to find a feasible solution such
   that the maximum regret over all scenarios is minimized. The problem is extremely challenging both from
   a theoretical and a practical point of view. Its decision version is complete for the complexity class
-  $^p_2$ hence it is most probably not in $NP$. In addition, even computing the regret of a solution with
-  respect to a scenario requires the solution of an $NP$-hard problem. We examine the behavior of classical
+  ^p_2 hence it is most probably not in NP. In addition, even computing the regret of a solution with
+  respect to a scenario requires the solution of an NP-hard problem. We examine the behavior of classical
   combinatorial optimization approaches when adapted to the solution of the MRKP. We introduce an iterated
   local search approach and a Lagrangian-based branch-and-cut algorithm, and evaluate their performance
   through extensive computational experiments.

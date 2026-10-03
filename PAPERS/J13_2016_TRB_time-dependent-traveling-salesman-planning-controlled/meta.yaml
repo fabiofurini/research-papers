@@ -24,8 +24,8 @@ abstract: The integration of drones into civil airspace is one of the most chall
   process. In this paper, we optimize the route planning of a drone mission that consists of departing
   from an airport, flying over a set of mission way points and coming back to the initial airport. We
   assume that during the mission a set of piloted aircraft flies in the same airspace and thus the cost
-  of the drone route depends on the air traﬃc and on the avoidance maneuvers used to prevent possible
-  conflicts. Two air traffic management techniques, i.e., routing and holding, are modeled in order to
+  of the drone route depends on the air traffic and on the avoidance maneuvers used to prevent possible
+  conflicts. Two Air Traffic Management techniques, i.e., routing and holding, are modeled in order to
   maintain a minimum separation between the drone and the piloted aircraft. The considered problem, called
   the Time Dependent Traveling Salesman Planning Problem in Controlled Airspace (TDTSPPCA), relates to
   the drone route planning phase and aims to minimize the total operational cost. Two heuristic algorithms
@@ -34,5 +34,5 @@ abstract: The integration of drones into civil airspace is one of the most chall
   Branch and Cut algorithm are proposed for solving the TDTSPPCA to optimality. An additional formulation,
   based on a Travelling Salesman Problem variant that uses specific penalties to model the holding times,
   is proposed and a Cutting Plane algorithm is designed. Finally, computational experiments on real-world
-  air traﬃc data from Milano Linate Terminal Maneuvering Area are reported to evaluate the performance
-  of the proposed formulations and of the heuristic algorithms
+  air traffic data from Milano Linate Terminal Maneuvering Area are reported to evaluate the performance
+  of the proposed formulations and of the heuristic algorithms.

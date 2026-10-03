@@ -24,11 +24,11 @@ pdf:
 note: null
 abstract: 'Dantzig-Wolfe decomposition is well-known to provide strong dual bounds for specially structured
   mixed integer programs (MIPs) in practice. However, the method is not implemented in any state-of-the-art
-  MIP solver: it needs tailoring to the particular problem; the decomposi- tion must be determined from
+  MIP solver: it needs tailoring to the particular problem; the decomposition must be determined from
   the typical bordered block-diagonal matrix structure; the resulting column generation subproblems must
-  be solved eﬃciently; etc. We provide a computational proof-of-concept that the process can be automated
+  be solved efficiently; etc. We provide a computational proof-of-concept that the process can be automated
   in principle, and that strong dual bounds can be obtained on general MIPs for which a solution by a
-  decomposition has not been the ﬁrst choice. We perform an extensive computational study on the 0-1 dynamic
-  knapsack problem (without block-diagonal structure) and on general MIPLIB2003 instances. Our results
-  support that Dantzig-Wolfe reformulation may hold more promise as a general- purpose tool than previously
-  acknowledged by the research community'
+  decomposition has not been the first choice. We perform an extensive computational study on the 0-1
+  dynamic knapsack problem (without block-diagonal structure) and on general MIPLIB2003 instances. Our
+  results support that Dantzig-Wolfe reformulation may hold more promise as a ge-ne-ral-pur-pose tool
+  than previously acknowledged by the research community.'

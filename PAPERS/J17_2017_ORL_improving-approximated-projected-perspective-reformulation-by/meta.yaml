@@ -19,11 +19,9 @@ pdf:
   journal: true
   proof: false
 note: null
-abstract: We propose an improvement of the Approximated Projected Perspective Reformulation (AP2 R) for
+abstract: We propose an improvement of the Approximated Projected Perspective Reformulation (AP^2R) for
   dealing with constraints linking the binary variables. The new approach solves the Perspective Reformulation
   (PR) once, and then use the corresponding dual information to reformulate the problem prior to applying
-  AP2 R, thereby combining the root bound quality of the PR with the reduced relaxation computing time
-  of AP2 R. Computational results for the cardinality-constrained Mean–Variance portfolio optimization
-  problem show that the new approach is competitive with state-of-the-art ones. Mixed-Integer Non-Linear
-  Problems Semi-continuous variables Perspective reformulation Projection Lagrangian relaxation Portfolio
-  optimization
+  AP^2R, thereby combining the root bound quality of the PR with the reduced relaxation computing time
+  of AP^2R. Computational results for the cardinality-constrained Mean-Variance portfolio optimization
+  problem show that the new approach is competitive with state-of-the-art ones.

@@ -30,7 +30,7 @@ abstract: In this paper we present state space reduction techniques for a dynami
   of the dynamic programming algorithm proposed. This is achieved by using heuristic upper bounds and
   a completion lower bound in order to reduce the state space in the dynamic programming algorithm. We
   compare our algorithm to an approach based on mixed integer linear programming, which was adapted from
-  the literature for the case of CPS. We show using real-world air traﬃc instances from the Milan Linate
-  Airport that the dynamic programming algorithm signiﬁcantly outperforms the MILP. Furthermore, we show
+  the literature for the case of CPS. We show using real-world air traffic instances from the Milan Linate
+  Airport that the dynamic programming algorithm significantly outperforms the MILP. Furthermore, we show
   that the proposed algorithm is capable of solving very large instances in short computation times, and
-  that it is suitable for use in a real-time setting
+  that it is suitable for use in a real-time setting.

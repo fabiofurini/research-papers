@@ -23,6 +23,5 @@ abstract: We propose an exact lexicographic dynamic programming pricing algorith
   Bin Packing Problem with column generation. The new algorithm is designed for generating maximal columns
   of minimum reduced cost which maximize, lexicographically, one of the measures of maximality we investigate.
   Extensive computational experiments reveal that a column generation algorithm based on this pricing
-  technique can achieve a substantial reduction in the number of columns and the computing time, also
-  when combined with a classical smoothing technique from the literature. Fractional bin packing problem
-  Column generation Dynamic programming Lexicographic optimization
+  technique can achieve a substantial reduction in number of columns and computing time, also when combined
+  with a classical smoothing technique from the literature.

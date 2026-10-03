@@ -18,11 +18,10 @@ pdf:
   journal: true
   proof: false
 note: null
-abstract: 'Keywords: Cutting stock problem Mixed-integer programming models Computational experiments
-  We consider a Two-Dimensional Cutting Stock Problem (2DCSP) where stock of different sizes is available,
-  and a set of rectangular items has to be obtained through two-stage guillotine cuts. We propose and
-  computationally compare three Mixed-Integer Programming models for the 2DCSP developing formulations
-  from the literature. The first two models have a polynomial and pseudopolynomial number of variables,
+abstract: We consider a Two-Dimensional Cutting Stock Problem (2DCSP) where stock of different sizes is
+  available, and a set of rectangular items has to be obtained through two-stage guillotine cuts. We propose
+  and computationally compare three Mixed-Integer Programming models for the 2DCSP developing formulations
+  from the literature. The first two models have a polynomial and pseudo-polynomial number of variables,
   respectively, and can be solved with a general-purpose MIP solver. The third model, having an exponential
   number of variables, is solved via branch-and-price techniques. We conclude the paper describing the
-  results of extensive computational experiments on a set of benchmark instances from the literature'
+  results of extensive computational experiments on a set of benchmark instances from the literature.

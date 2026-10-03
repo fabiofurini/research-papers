@@ -24,7 +24,7 @@ abstract: We study the Maximum Weighted Clique Problem (MWCP), a generalization 
   a complete subgraph of maximum weight. We design a new combinatorial branch-and-bound algorithm for
   the MWCP, which relies on an effective bounding procedure. The size of the implicit enumeration tree
   is largely reduced via a tailored branching scheme, specifically conceived for the MWCP. The new bounding
-  function extends the classical MWCP bounds from the literature to achieve a good trade off between pruning
-  potential and computing effort. We perform extensive tests on random graphs, graphs from the literature
-  and real-world graphs, and we computationally show that our new exact algorithm is competitive with
-  the state-of-the-art algorithms for the MWCP in all these classes of instances
+  function extends the classical MWCP bounds from the literature to achieve a good compromise between
+  pruning potential and computing effort. We perform extensive tests on random graphs, graphs from the
+  literature and real-world graphs, and we computationally show that our new exact algorithm is competitive
+  with the state-of-the-art algorithms for the MWCP in all these classes of instances.

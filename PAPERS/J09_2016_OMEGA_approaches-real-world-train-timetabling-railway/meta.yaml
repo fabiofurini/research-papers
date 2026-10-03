@@ -31,4 +31,4 @@ abstract: We consider the Train Timetabling Problem (TTP) in a railway node (i.e
   from the literature to deal with the case of a railway node. The Linear Programming (LP) relaxation
   of the model is used to derive a dual bound. In addition, we propose an iterative heuristic algorithm
   that is able to obtain good solutions to real-world instances with up to 1500 trains in short computing
-  times. The proposed algorithm is also used to evaluate the capacity saturation of the railway nodes
+  times. The proposed algorithm is also used to evaluate the capacity saturation of the railway nodes.

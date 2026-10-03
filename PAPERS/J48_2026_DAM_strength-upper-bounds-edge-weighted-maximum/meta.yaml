@@ -30,4 +30,4 @@ abstract: 'We theoretically and computationally compare the strength of the thre
   chosen instances on which either bound is tighter than the other. Our theoretical analysis is complemented
   by extensive computational experiments on two benchmark datasets: the standard DIMACS instances and
   randomly generated instances, providing practical insights into the empirical strength of the upper
-  bounds'
+  bounds.'

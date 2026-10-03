@@ -22,7 +22,7 @@ note: null
 abstract: We study an extension of the classical Bin Packing Problem, where each item consumes the bin
   capacity during a given time window that depends on the item itself. The problem asks for finding the
   minimum number of bins to pack all the items while respecting the bin capacity at any time instant.
-  A polynomialsize formulation, an exponential-size formulation, and a number of lower and upper bounds
+  A polynomial-size formulation, an exponential-size formulation, and a number of lower and upper bounds
   are studied. A branch-and-price algorithm for solving the exponential-size formulation is introduced.
   An overall algorithm combining the different methods is then proposed and tested through extensive computational
-  experiments
+  experiments.

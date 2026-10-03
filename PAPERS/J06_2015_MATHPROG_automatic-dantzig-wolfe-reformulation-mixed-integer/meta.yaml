@@ -23,22 +23,14 @@ pdf:
   journal: true
   proof: false
 note: null
-abstract: 'Dantzig–Wolfe decomposition (or reformulation) is well-known to provide strong dual bounds
-  for specially structured mixed integer programs (MIPs). However, A preliminary version of this paper
-  appeared in [3]. M. Bergner · M. E. Lübbecke (B) Operations Research, RWTH Aachen University, Kackertstraße
-  7, 52072 Aachen, Germany e-mail: marco.luebbecke@rwth-aachen.de M. Bergner e-mail: martin.bergner@rwth-aachen.de
-  A. Ceselli Dipartimento di Informatica, Università degli Studi di Milano, Via Bramante 65, 26013 Crema,
-  Italy e-mail: alberto.ceselli@unimi.it F. Furini LAMSADE, Université Paris-Dauphine, Place du Maréchal
-  de Lattre de Tassigny, 75775 Paris, France e-mail: fabio.furini@dauphine.fr A. Caprara · E. Malaguti
-  DEI, Università di Bologna, Viale Risorgimento 2, 40136 Bologna, Italy e-mail: enrico.malaguti@unibo.it
-  E. Traversi LIPN, Équipe AOC, Université Paris 13, 99 Avenue Jean-Baptiste Clément, 93430 Villetaneuse,
-  France e-mail: emiliano.traversi@lipn.univ-paris13.fr the method is not implemented in any state-of-the-art
-  MIP solver as it is considered to require structural problem knowledge and tailoring to this structure.
-  We provide a computational proof-of-concept that the reformulation can be automated. That is, we perform
-  a rigorous experimental study, which results in identifying a score to estimate the quality of a decomposition:
-  after building a set of potentially good can- didates, we exploit such a score to detect which decomposition
-  might be useful for Dantzig–Wolfe reformulation of a MIP. We experiment with general instances from
-  MIPLIB2003 and MIPLIB2010 for which a decomposition method would not be the first choice, and demonstrate
-  that strong dual bounds can be obtained from the auto- matically reformulated model using column generation.
-  Our findings support the idea that Dantzig–Wolfe reformulation may hold more promise as a general-purpose
-  tool than previously acknowledged by the research community'
+abstract: 'Dantzig-Wolfe decomposition (or reformulation) is well-known to provide strong dual bounds
+  for specially structured mixed integer programs (MIPs). However, the method is not implemented in any
+  state-of-the-art MIP solver as it is considered to require structural problem knowledge and tailoring
+  to this structure. We provide a computational proof-of-concept that the reformulation can be automated.
+  That is, we perform a rigorous experimental study, which results in identifying a score to estimate
+  the quality of a decomposition: after building a set of potentially good candidates, we exploit such
+  a score to detect which decomposition might be useful for Dantzig-Wolfe reformulation of a MIP. We experiment
+  with general instances from MIPLIB2003 and MIPLIB2010 for which a decomposition method would not be
+  the first choice, and demonstrate that strong dual bounds can be obtained from the automatically reformulated
+  model using column generation. Our findings support the idea that Dantzig-Wolfe reformulation may hold
+  more promise as a ge-ne-ral-pur-pose tool than previously acknowledged by the research community.'

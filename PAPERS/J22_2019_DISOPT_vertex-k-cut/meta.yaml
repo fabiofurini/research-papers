@@ -22,10 +22,9 @@ pdf:
   journal: true
   proof: false
 note: null
-abstract: Given an undirected graph G = (V, E), a vertex k-cut of G is a vertex subset of V the removing
-  of which disconnects the graph in at least k components. Given a graph G and an integer k ≥ 2, the vertex
+abstract: Given an undirected graph G=(V,E), a vertex k-cut of G is a vertex subset of V the removing
+  of which disconnects the graph in at least k components. Given a graph G and an integer k2, the vertex
   k-cut problem consists in finding a vertex k-cut of G of minimum cardinality. We first prove that the
-  problem is NP-hard for any fixed k ≥ 3. We then present a compact formulation, and an extended formulation
-  from which we derive a column generation and a branching scheme. Vertex cut Extensive computational
-  results prove the effectiveness of the proposed methods. Mixed-integer programming models Branch and
-  Price Exact algorithms
+  problem is NP-hard for any fixed k 3. We then present a compact formulation, and an extended formulation
+  from which we derive a column generation and a branching scheme. Extensive computational results prove
+  the effectiveness of the proposed methods.

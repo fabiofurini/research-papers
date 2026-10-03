@@ -28,13 +28,13 @@ pdf:
   journal: true
   proof: false
 note: null
-abstract: This paper describes a new instance library for quadratic programming (QP), i.e., the family
-  of continuous and (mixed)-integer optimization problems where the objective function and/or the constraints
-  are quadratic. QP is a very diverse class of prob- lems, comprising sub-classes ranging from trivial
-  to undecidable. This diversity is reflected in the variety of QP solution methods, ranging from entirely
-  combinatorial approaches to completely continuous algorithms, including many methods for which both
-  aspects are fundamental. Selecting a set of instances of QP that is at the same time not overwhelmingly
-  onerous but sufficiently challenging for the different, interested communities is therefore important.
-  We propose a simple taxonomy for QP instances leading to a systematic problem selection mechanism. We
-  then briefly survey the field of QP, giving an overview of theory, methods and solvers. Finally, we
-  describe how the library was put together, and detail its final contents
+abstract: This paper describes a new instance library for Quadratic Programming (QP), i.e., the family
+  of continuous and (mixed)-integer optimization problems where the objective function, the constrains,
+  or both are quadratic. QP is a very ``varied'' class of problems, comprising sub-classes of problems
+  ranging from trivial to undecidable. Solution methods for QP are very diverse, ranging from entirely
+  combinatorial ones to completely continuous ones, including many for which both aspects are fundamental.
+  Selecting a set of instances of QP that is at the same time not overwhelmingly onerous but sufficiently
+  challenging for the many different interested communities is therefore important. We propose a simple
+  taxonomy for QP instances that leads to a systematic problem selection mechanism. We then briefly survey
+  the field of QP, giving an overview of theory, methods and solvers. Finally, we describe how the library
+  was put together, and detail its final contents.

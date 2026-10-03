@@ -18,11 +18,11 @@ pdf:
   journal: true
   proof: false
 note: null
-abstract: We perform a theoretical and computational study of the classical linearisation techniques (LT)
-  and we propose a new LT for binary quadratic problems (BQPs). We discuss the relations between the linear
-  programming (LP) relaxations of the considered LT for generic BQPs. We prove that for a specific class
+abstract: We perform a theoretical and computational study of the classical Linearisation Techniques (LT)
+  and we propose a new LT for Binary Quadratic Problems (BQPs). We discuss the relations between the Linear
+  Programming (LP) relaxations of the considered LT for generic BQPs. We prove that for a specific class
   of BQP all the LTs have the same LP relaxation value. We also compare the LT computational performance
-  for four different BQPs from the literature. We consider the Unconstrained BQP and the maximum cut of
+  for four different BQPs from the literature. We consider the Unconstrained BQP and the Maximum Cut of
   edge-weighted graphs and, in order to measure the effects of constraints on the computational performance,
   we also consider the quadratic extension of two classical combinatorial optimization problems, i.e.,
-  the knapsack and stable set problems
+  the Knapsack and Stable Set problems.

@@ -20,8 +20,8 @@ pdf:
 note: null
 abstract: Given an undirected graph, the Vertex Coloring Problem (VCP) consists of assigning a color to
   each vertex of the graph such that two adjacent vertices do not share the same color and the total number
-  of colors is minimized. DSATUR-based Branch- and-Bound is a well-known exact algorithm for the VCP.
-  One of its main drawbacks is that a lower bound (equal to the size of a maximal clique) is computed
-  once at the root of the branching scheme and it is never updated during the execution of the algorithm.
-  In this article, we show how to update the lower bound and we compare the eﬃciency of several lower
-  bounding techniques
+  of colors is minimized. DSATUR-based Branchand-Bound is a well-known exact algorithm for the VCP. One
+  of its main drawbacks is that a lower bound (equal to the size of a maximal clique) is computed once
+  at the root of the branching scheme and it is never updated during the execution of the algorithm. In
+  this article, we show how to update the lower bound and we compare the eﬃciency of several lower bounding
+  techniques.

@@ -22,11 +22,11 @@ pdf:
   journal: true
   proof: false
 note: null
-abstract: We consider a two-dimensional cutting stock problem where stock of different sizes is available,
+abstract: We consider a Two-Dimensional Cutting Stock Problem where stock of different sizes is available,
   and a set of rectangular items has to be obtained through two-staged guillotine cuts. We propose a heuristic
-  algorithm, based on column generation, which requires as its subproblem the solution of a two-dimensional
-  knapsack problem with two-staged guillotines cuts. A further contribution of the paper consists in the
-  definition of a mixed integer linear programming model for the solution of this knapsack problem, as
+  algorithm, based on column generation, which requires as subproblem the solution of a Two-Dimensional
+  Knapsack Problem with two-staged guillotines cuts. A further contribution of the paper consists in the
+  definition of a Mixed Integer Linear Programming Model for the solution of this Knapsack Problem, as
   well as a heuristic procedure based on dynamic programming. Computational experiments show the effectiveness
   of the proposed approach, which obtains very small optimality gaps and outperforms the heuristic algorithm
-  proposed by Cintra et al. [3]
+  proposed by Cintra et al..

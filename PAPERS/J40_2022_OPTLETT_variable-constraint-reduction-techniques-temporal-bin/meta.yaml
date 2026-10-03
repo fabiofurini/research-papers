@@ -30,4 +30,4 @@ abstract: The aim of this letter is to design and computationally test several i
   procedures to reduce the number of variables and constraints of the ILP formulations proposed in the
   literature as well as the introduction of new valid inequalities. By extensive computational tests we
   show that substantial improvements can be achieved and several instances from the literature can be
-  solved to proven optimality for the first time
+  solved to proven optimality for the first time.

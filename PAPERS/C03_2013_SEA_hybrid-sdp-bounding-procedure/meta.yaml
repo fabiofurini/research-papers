@@ -18,10 +18,10 @@ pdf:
   journal: true
   proof: false
 note: null
-abstract: The principal idea of this paper is to exploit Semideﬁnite Programming (SDP) relaxation within
+abstract: The principal idea of this paper is to exploit Semidefinite Programming (SDP) relaxation within
   the framework provided by Mixed Integer Nonlinear Programming (MINLP) solvers when tackling Binary Quadratic
-  Problems. We included the SDP relaxation in a state-of-the- art MINLP solver as an additional bounding
+  Problems. We included the SDP relaxation in a state-of-the-art MINLP solver as an additional bounding
   technique and demonstrated that this idea could be computationally useful. The Quadratic Stable Set
-  Problem is adopted as the case study. The tests indicate that the Hy- brid SDP Bounding Procedure allows
+  Problem is adopted as the case study. The tests indicate that the Hybrid SDP Bounding Procedure allows
   an average 50% cut of the overall computing time and a cut of more than one order of magnitude for the
-  branching nodes
+  branching nodes.

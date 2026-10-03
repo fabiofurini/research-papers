@@ -20,7 +20,7 @@ pdf:
   journal: true
   proof: false
 note: null
-abstract: Given a graph G and an interdiction budget k ∈ N, the Edge Interdiction Clique Problem (EICP)
+abstract: Given a graph G and an interdiction budget k N, the Edge Interdiction Clique Problem (EICP)
   asks to find a subset of at most k edges to remove from G so that the size of the maximum clique, in
   the interdicted graph, is minimized. The EICP belongs to the family of interdiction problems with the
   aim of reducing the clique number of the graph. The EICP optimal solutions, called optimal interdiction
@@ -30,4 +30,4 @@ abstract: Given a graph G and an interdiction budget k ∈ N, the Edge Interdict
   branch-and-cut algorithm which is enhanced by a tailored separation procedure and by an effective heuristic
   initialization phase. Thanks to the new exact algorithm, we manage to solve the EICP in several sets
   of instances from the literature. Extensive tests show that the new exact algorithm greatly outperforms
-  the state-of-the-art approaches for the EICP
+  the state-of-the-art approaches for the EICP.

@@ -30,9 +30,8 @@ abstract: Given a network with capacities and blocker costs associated with its 
   In contrast, the second type of ILP model, with a polynomial number of variables and constraints, is
   solved using a state-of-the-art ILP solver. The latter formulation establishes a structural connection
   between the FB and the maximum flow interdiction problem (FI), introducing a novel approach to obtaining
-  solutions for each problem from the other. The ILP formulations proposed for solving the FB are evaluated
-  thanks to a theoretical analysis assessing the strength of their LP relaxations. Additionally, the exact
-  methods presented in this paper undergo a thorough comparison through an extensive computational campaign
-  involving a set of real-world and synthetic instances. Our tests aim to evaluate the performance of
-  the exact algorithms and identify the features of instances that can be solved with proven optimality.
-  { }
+  solutions for each problem from the other. blackThe ILP formulations proposed for solving the FB are
+  evaluated thanks to a theoretical analysis assessing the strength of their LP relaxations. Additionally,
+  the exact methods presented in this paper undergo a thorough comparison through an extensive computational
+  campaign involving a set of real-world and synthetic instances. Our tests aim to evaluate the performance
+  of the exact algorithms and identify the features of instances that can be solved with proven optimality.

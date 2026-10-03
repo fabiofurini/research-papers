@@ -20,31 +20,21 @@ pdf:
   journal: true
   proof: false
 note: null
-abstract: 'problems, a wide variety of different speciﬁcations are assumed to be nonnegative integer numbers.
-  Classical decision- and associated terminologies have developed independently in re- making problems
-  arising in this context have been coarsely classi- cent years, in each of these scientiﬁc ﬁelds. To
-  provide a coherent ﬁed in Angelelli, Bianchessi, & Filippi (2014) as follows: overview, in this article
-  we would like to mainly focus on the op- erations research (or rather, the cutting and packing) perspective,
-  Q1: Is it possible to arrange all jobs on a ﬁxed set of r ∈ N given servers? Q2: Which is the subset
-  of jobs that yields the largest proﬁt when arranged on r ∈ N given servers? Q3: Which is the smallest
-  number r ∈ N of servers needed to ar- range all jobs? Although Q1 can be interpreted as a decision version
-  of Q3, cisely, the time horizon), so that both problems (BAP and SAP) and thus there are strong relationships
-  between these two ques- turn out to be N P -hard even in the very restricted case when tions, the relevant
-  literature has initially focussed intensively on si = 0, ei = 1, and pi = ci hold for all jobs. Q2.
-  Probably the most signiﬁcant special case of that question is answered by the temporal knapsack problem
-  (TKP), where a proﬁt- As can be seen from this overview, already the TKP (which did maximal allocation
-  of a single server (i.e., r = 1) has to be found. not yet appear under this name in the aforementioned
-  publica- However, referring to concrete applications in communications tions) is a very challenging
-  problem from a theoretical point of theory, this problem was originally introduced as the bandwidth
-  view. For this reason, heuristic methods have been an essential allocation problem (BAP), see Bar-Noy,
-  Canetti, Kutten, Mansour, & subject of further investigations. We refer the interested reader to Schieber
-  (1999), Chen et al. (2002), generalizing some preliminary some classic approaches proposed in Bar-Noy,
-  Bar-Yehuda, Freund, concepts from an earlier publication (Arkin & Silverberg, 1987) & Naor (2001), Chen
-  et al. (2002), Darmann et al. (2010) and to in machine scheduling. In that framework, a server can also
-  be algorithms for handling more general problem aspects such as on- thought of as a ﬁxed-capacity communication
-  channel for which line scenarios with preemption (Bar-Noy et al., 1999) and speciﬁc there are certain
-  requests to reserve bandwidth (that is, to trans- job durations that can be smaller than the activity
-  interval, so that mit information). Consequently, assuming the proﬁt of each job to there is more ﬂexibility
-  in allocation (Phillips, Uma, & Wein, 20 0 0). be proportional to its area in the capacity-time space,
-  its contribu- tion to the objective function is directly linked to the amount of in- 1.2. Problem-speciﬁc
-  Literature Review formation conveyed by it, see Bar-Noy et al. (1999).'
+abstract: 'In this article, we consider two neighboring generalizations of the classical bin packing problem:
+  the temporal bin packing problem (TBPP) and the temporal bin packing problem with fire-ups (TBPP-FU).
+  In both cases, the task is to arrange a set of given jobs, characterized by a resource consumption and
+  an activity window, on homogeneous servers of limited capacity. To keep the operational costs but also
+  the energy consumption of this allocation as low as possible, two main optimization goals were identified
+  in the literature. While TBPP is exclusively concerned with minimizing the number of servers in use,
+  TBPP-FU additionally takes into account the switch-on processes required for their operation. In both
+  cases, challenging integer optimization problems are obtained, which can differ significantly from each
+  other despite the seemingly only marginal variation of the problems. In the literature, a branch-and-price
+  method enriched with many preprocessing steps (for the TBPP) and compact formulations (for the TBPP-FU),
+  which have been steadily improved by numerous reduction methods, have emerged as, currently, the most
+  promising solution methods. In this paper, we present, in a sense, a unified solution approach for both
+  problems based on graph theory. Any scientific contributions in this direction failed so far because
+  of the exponential number of the necessary states and transitions. The approach we present in this article
+  cannot change the theoretical exponentiality itself, but it can make it controllable by clever construction
+  of the resulting graphs. In particular, this leads to the fact that for the first time all classical
+  benchmark instances (and even larger ones) for the two problems can be solved -- in times that significantly
+  improve those of the previous approaches.'

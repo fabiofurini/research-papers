@@ -28,9 +28,9 @@ abstract: 'We study the Knapsack Problem with Conflicts, a generalization of the
   in the maximum-clique literature, was never successfully employed for solving the Knapsack Problem with
   Conflicts; (ii) the adoption of the Multiple-Choice Knapsack Problem for the derivation of upper bounds
   used for pruning the branch-and-bound tree nodes; and (iii) the design of a new upper bound for the
-  latter problem which can be computed very eﬃciently. Key to our algorithm is its high pruning potential
+  latter problem which can be computed very efficiently. Key to our algorithm is its high pruning potential
   and the low computational effort that it requires to process each branch-and-bound node. An extensive
   set of experiments carried out on the benchmark instances typically used in the literature shows that,
   for edge densities ranging from 0.1 to 0.9, our algorithm is faster by up to two orders of magnitude
   than the state-of-the-art method and by up to several orders of magnitude than a state-of-the-art mixed-integer
-  linear programming solver'
+  linear programming solver.'

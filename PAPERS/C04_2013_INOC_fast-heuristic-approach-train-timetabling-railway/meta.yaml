@@ -17,9 +17,9 @@ pdf:
   journal: true
   proof: false
 note: null
-abstract: We consider a conﬂict-free scheduling problem which arises in railway networks, where ideal
-  timetables have been provided for a set of trains, but where these timetables may be conﬂicting. We
+abstract: We consider a conflict-free scheduling problem which arises in railway networks, where ideal
+  timetables have been provided for a set of trains, but where these timetables may be conflicting. We
   use a space-time graph approach from the railway scheduling literature in order to develop a fast heuristic
-  which resolves conﬂicts by adjusting the ideal timetables while attempting to minimize the deviation
+  which resolves conflicts by adjusting the ideal timetables while attempting to minimize the deviation
   from the ideal timetable. Our approach is tested on realistic data obtained from the railway node of
-  Milan
+  Milan.

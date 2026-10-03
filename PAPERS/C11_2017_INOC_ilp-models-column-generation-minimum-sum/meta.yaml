@@ -20,10 +20,10 @@ pdf:
   proof: false
 note: null
 abstract: We study two Integer Linear Programming (ILP) formulations for the Minimum Sum Coloring Problem
-  (MSCP). The problem is an extension of the classical Ver- tex Coloring Problem in which each color is
-  represented by a positive natural num- ber. The MSCP asks to minimize the sum of the cardinality of
-  subsets of vertices receiving the same color, weighted by the index of the color, while ensuring that
-  vertices linked by an edge receive diﬀerent colors. The ﬁrst ILP formulation has a polynomial number
-  of variables while the second one has an exponential number of variables and is tackled via column generation.
-  Computational tests show that the linear programming relaxation of the second formulation provides tight
-  lower bounds which allow us to solve to proven optimality some hard instances of the literature
+  (MSCP). The problem is an extension of the classical Vertex Coloring Problem in which each color is
+  represented by a positive natural number. The MSCP asks to minimize the sum of the cardinality of subsets
+  of vertices receiving the same color, weighted by the index of the color, while ensuring that vertices
+  linked by an edge receive different colors. The first ILP formulation has a polynomial number of variables
+  while the second one has an exponential number of variables and is tackled via column generation. Computational
+  tests show that the linear programming relaxation of the second formulation provides tight lower bounds
+  which allow us to solve to proven optimality some hard instances of the literature.

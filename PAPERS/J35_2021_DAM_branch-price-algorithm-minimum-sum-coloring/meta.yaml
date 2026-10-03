@@ -31,4 +31,4 @@ abstract: 'A proper coloring of a given graph is an assignment of a positive int
   On synthetic graphs, our algorithm outperforms the compact formulations in terms of: (i) number of solved
   instances, (ii) running times and (iii) exit gaps obtained when optimality is not achieved. For the
   DIMACS instances, our algorithm is competitive with the best compact formulation and provides very strong
-  dual bounds'
+  dual bounds.'

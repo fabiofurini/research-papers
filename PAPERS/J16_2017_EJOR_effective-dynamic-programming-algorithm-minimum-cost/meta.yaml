@@ -20,9 +20,9 @@ pdf:
   proof: false
 note: null
 abstract: Given a set of items with profits and weights and a knapsack capacity, we study the problem
-  of finding a maximal knapsack packing that minimizes the profit of the selected items. We propose an
-  effective dynamic programming (DP) algorithm which has a pseudo-polynomial time complexity. We demonstrate
-  the equivalence between this problem and the problem of finding a minimal knapsack cover that maximizes
-  the profit of the selected items. In an extensive computational study on a large and diverse set of
-  benchmark instances, we demonstrate that the new DP algorithm outperforms a state-of-the-art commercial
-  mixed-integer programming (MIP) solver applied to the two best performing MIP models from the literature
+  of finding a maximal knapsack packing that minimizes the profit of selected items. We propose an effective
+  dynamic programming (DP) algorithm which has pseudo-polynomial time complexity. We demonstrate the equivalence
+  between this problem and the problem of finding a minimal knapsack cover that maximizes the profit of
+  selected items. In an extensive computational study on a large and diverse set of benchmark instances,
+  we demonstrate that the new DP algorithm outperforms a state-of-the-art commercial mixed-integer programming
+  (MIP) solver applied to the two best performing MIP models from the literature.
