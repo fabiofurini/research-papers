@@ -16,3 +16,9 @@ pdf:
   journal: true
   proof: false
 note: null
+abstract: A rich lot-sizing problem is studied in this manuscript which comes from a real-world application.
+  Our new lot-sizing problem com- bines several features, i.e., parallel machines, production time windows,
+  backlogging, lost sale and setup carryover. Three mixed integer program- ming formulations are proposed.
+  We theoretically and computationally compare these diﬀerent formulations, testing them on real-world
+  and randomly generated instances. Our study is the ﬁrst step for eﬃciently tackling and solving this
+  challenging real-world lot-sizing problem

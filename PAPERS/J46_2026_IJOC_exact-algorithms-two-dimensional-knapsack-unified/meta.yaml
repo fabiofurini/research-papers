@@ -22,3 +22,22 @@ pdf:
   journal: false
   proof: true
 note: 'PDF ufficiale IJOC non ancora uscito: si usa la proof R3, da sostituire quando disponibile'
+abstract: 'This paper investigates two-dimensional knapsack problems modeled as papers to INFORMS journals
+  by means the Generalized Two-Dimensional Knapsack Problem (G2KP), a variant not previ- of a style file
+  template, which includes ously studied in the literature. The importance of the G2KP lies in its crucial
+  role in the journal title. However, use of a tem- designing Branch-Price-and-Cut (BPC) algorithms for
+  the classical Two-Dimensional plate does not certify that the paper Bin-Packing Problem. We propose
+  a novel and effective exact solution framework has been accepted for publication in that incorporates
+  both non-numerically exact and numerically exact algorithms tai- the named journal. INFORMS journal
+  lored to G2KP. The framework also achieves state-of-the-art performance on the well- templates are for
+  the exclusive purpose known Two-Dimensional Knapsack Problem (with and without item conflicts) and the
+  of submitting to an INFORMS journal Two-Dimensional Orthogonal Packing Problem, solving several previously
+  unsolved and are not intended to be a true repre- instances and establishing new benchmark results.
+  These findings highlight the frame- sentation of the article’s final published work’s potential to inspire
+  algorithmic developments for pricing problems in related form. Use of this template to distribute BPC
+  methods and higher-dimensional packing problems. To support future research, papers in print or online
+  or to submit we make the algorithm code, instance data, and detailed results publicly available. papers
+  to another non-INFORM publi- Funding: This study was supported by the Natural Science Foundation of
+  China cation is prohibited. [Grants 72271062 and 52575565], the Science and Technology Projects in Guangzhou
+  [Grant 2024A04J01019], and the Province Natural Science Fund of Guangdong [Grants 2025A1515011297 and
+  2024A1515010246]'

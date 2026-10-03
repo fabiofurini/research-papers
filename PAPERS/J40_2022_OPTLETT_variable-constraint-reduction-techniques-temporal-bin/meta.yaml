@@ -20,3 +20,14 @@ pdf:
   journal: true
   proof: false
 note: null
+abstract: The aim of this letter is to design and computationally test several improvements for the compact
+  integer linear programming (ILP) formulations of the temporal bin packing problem with fire-ups (TBPP-FU).
+  This problem is a challenging generalization of the classical bin packing problem in which the items,
+  interpreted as jobs of given weight, are active only during an associated time window. The TBPP-FU objective
+  function asks for the minimization of the weighted sum of the number of bins, viewed as servers of given
+  capacity, to execute all the jobs and the total number of fire-ups. The fire-ups count the number of
+  times the servers are activated due to the presence of assigned active jobs. Our contributions are effective
+  procedures to reduce the number of variables and constraints of the ILP formulations proposed in the
+  literature as well as the introduction of new valid inequalities. By extensive computational tests we
+  show that substantial improvements can be achieved and several instances from the literature can be
+  solved to proven optimality for the first time

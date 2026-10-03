@@ -20,3 +20,14 @@ pdf:
   journal: true
   proof: false
 note: null
+abstract: Given a graph G and an interdiction budget k, the Maximum Clique Interdiction Problem asks to
+  find a subset of at most k vertices to remove from G so that the size of the maximum clique in the remaining
+  graph is minimized. This problem has applications in many areas, such as crime detection, prevention
+  of outbreaks of infectious diseases and surveillance of communication networks. We propose an integer
+  linear programming formulation of the problem based on an exponential family of Clique-Interdiction
+  Cuts and we give necessary and suﬃcient conditions under which these cuts are facet-defining. Our new
+  approach provides a useful tool for analyzing the resilience of (social) networks with respect to clique-interdiction
+  attacks, i.e., the decrease of the size of the maximum clique as a function of an incremental interdiction
+  budget level. On a benchmark set of publicly available instances, including large-scale social networks
+  with up to one hundred thousand vertices and three million edges, we show that most of them can be analyzed
+  and solved to proven optimality within short computing time

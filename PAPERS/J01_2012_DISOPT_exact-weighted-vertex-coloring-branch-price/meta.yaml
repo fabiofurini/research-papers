@@ -18,3 +18,10 @@ pdf:
   journal: true
   proof: false
 note: null
+abstract: 'Article history: We consider the Weighted Vertex Coloring Problem (WVCP), in which a positive
+  weight Received 24 November 2011 is associated to each vertex of a graph. In WVCP, one is required to
+  assign a color to each Received in revised form 6 February 2012 vertex in such a way that colors on
+  adjacent vertices are different, and the objective is to Accepted 20 March 2012 minimize the sum of
+  the costs of the colors used, where the cost of each color is given by Available online 16 April 2012
+  the maximum weight of the vertices assigned to that color. This NP-hard problem arises in practical
+  scheduling applications, where it is also known as Scheduling on a Batch Machine'

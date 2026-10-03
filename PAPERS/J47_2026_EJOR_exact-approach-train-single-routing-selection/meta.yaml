@@ -22,3 +22,18 @@ pdf:
   journal: true
   proof: false
 note: null
+abstract: 'Keywords: Given a set of train routes with route costs and a set of compatible route pairs
+  with pairing costs, the Train Transportation Single-Routing Selection Problem (TSRSP) seeks to assign
+  one route to each train, minimizing the total cost Combinatorial optimization while ensuring pairwise
+  compatibility among the selected routes. This problem is of significant practical Binary Quadratic Programming
+  relevance in rail traffic management and it is a special case of the Train Routing Selection Problem.
+  We Linearization techniques introduce a Binary Quadratic Programming formulation for the TSRSP and apply
+  a linearization technique Integer Linear Programming from the literature that requires a linear number
+  of additional variables and constraints. This yields a novel and effective Mixed Integer Linear Programming
+  (MILP) formulation for the TSRSP. By exploiting the structure of the problem, we further propose a method
+  to strengthen the Linear Programming (LP) relaxation of the MILP formulation, substantially improving
+  its computational performance. The resulting formulation is the first to efficiently solve real-world
+  TSRSP instances to optimality within short computational times— instances that, until now, have only
+  been addressed using heuristic approaches in the literature. Extensive computational results show that
+  our MILP model consistently outperforms existing formulations, both in terms of computational time and
+  the number of instances solved to optimality, primarily due to the strength of its LP relaxation'

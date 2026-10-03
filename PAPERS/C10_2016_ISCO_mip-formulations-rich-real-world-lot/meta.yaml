@@ -20,3 +20,10 @@ pdf:
   journal: true
   proof: false
 note: null
+abstract: We study an extension of the Bin Packing Problem, where items consume the bin capacity during
+  a time window only. The problem asks for finding the mini- mum number of bins to pack all the items
+  respecting the bin capacity at any instant of time. Both a polynomial-size formulation and an extensive
+  formulation are stud- ied. Moreover, various heuristic algorithms are developed and compared, including
+  greedy heuristics and a column generation based heuristic. We perform extensive computational experiments
+  on benchmark instances to evaluate the quality of the computed solutions with respect to strong bounds
+  based on the linear programming relaxation of the proposed formulations

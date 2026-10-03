@@ -19,3 +19,13 @@ pdf:
   journal: true
   proof: false
 note: null
+abstract: We propose a framework to model general guillotine restrictions in two-dimensional cutting problems
+  formulated as Mixed-Integer Linear Programs (MIP). The modeling framework requires a pseudo-polynomial
+  number of variables and constraints, which can be effectively enumerated for medium-size instances.
+  Our modeling of general guillotine cuts is the first one that, once it is implemented within a state-of-the-art
+  MIP solver, can tackle instances of challenging size. We mainly concentrate our analysis on the Guillotine
+  Two Dimensional Knapsack Problem (G2KP), for which a model, and an exact procedure able to significantly
+  improve the computational performance, are given. We also show how the modeling of general guillotine
+  cuts can be extended to other relevant problems such as the Guillotine Two Dimensional Cutting Stock
+  Problem (G2CSP) and the Guillotine Strip Packing Problem (GSPP). Finally, we conclude the paper discussing
+  an extensive set of computational experiments on G2KP and GSPP benchmark instances from the literature.

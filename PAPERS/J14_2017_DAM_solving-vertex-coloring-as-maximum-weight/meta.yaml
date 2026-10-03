@@ -19,3 +19,9 @@ pdf:
   journal: true
   proof: false
 note: null
+abstract: 'Article history: In Vertex Coloring Problems, one is required to assign a color to each vertex
+  of an undirected Received 19 June 2015 graph in such a way that adjacent vertices receive different
+  colors, and the objective is to Received in revised form 20 July 2016 minimize the cost of the used
+  colors. In this work we solve four different coloring problems Accepted 4 September 2016 formulated
+  as Maximum Weight Stable Set Problems on an associated graph. We exploit Available online 29 September
+  2016 the transformation proposed by Cornaz and Jost (2008), where given a graph G, an auxiliary'

@@ -20,3 +20,16 @@ pdf:
   journal: true
   proof: false
 note: null
+abstract: 'Given a directed graph with capacities and interdic- returning the value of the flow outgoing
+  from the source in tion costs associated with its arcs, the maximum flow blocker a graph G: problem
+  (MFBP) asks to find a minimum-cost subset of arcs to X be removed from the graph in such a way that
+  the remaining φ(G) = ya , (3) maximum-flow value does not exceed a given threshold. The a ∈ δ + (s)
+  MFBP has applications in telecommunication networks and in the monitoring of civil infrastructures,
+  among others. We which is also equal to the value of the flow entering the propose an integer linear
+  programming formulation (ILP) with destination as well as the flow on the arc (t, s), due to the an
+  exponential number of constraints, called Benders cut, for flow conservation constraints (2). the MFBP.
+  Accordingly, we derive a branch-and-cut algorithm to optimally solve the problem. Preliminary experimental
+  results One of the fundamental optimization problem consists in are reported to assess performance of
+  the formulation and more determining the maximum flow of a graph from the source precisely to determine
+  the dimension of the problem that could to the destination and accordingly the maximum flow value. be
+  solved to proven optimality. This problem, called, the maximum flow problem (MFP) has'

@@ -20,3 +20,19 @@ pdf:
   journal: true
   proof: false
 note: null
+abstract: The family of critical node detection problems asks for finding a subset of vertices, deletion
+  of which minimizes or maximizes a predefined connectivity measure on the remaining network. We study
+  a problem of this family called the k-vertex cut problem. The problem asks for determining the minimum
+  weight subset of nodes whose removal disconnects a graph into at least k components. We provide two
+  new integer linear programming formulations, along with families of strengthening valid inequalities.
+  Both models involve an exponential number of constraints for which we provide poly- time separation
+  procedures and design the respective branch-and-cut algorithms. In the first formulation one representative
+  vertex is chosen for each of the k mutually disconnected vertex subsets of the remaining graph. In the
+  second formulation, the model is derived from the perspective of a two-phase Stackelberg game in which
+  a leader deletes the vertices in the first phase, and in the second phase a follower builds connected
+  components in the remaining graph. Our computational study demonstrates that a hybrid model in which
+  valid inequalities of both formulations are combined significantly outperforms the state-of-the-art
+  exact methods from the literature. B Ivana Ljubić ivana.ljubic@essec.edu Fabio Furini fabio.furini@dauphine.fr
+  Enrico Malaguti enrico.malaguti@unibo.it Paolo Paronuzzi paolo.paronuzzi@unibo.it 1 LAMSADE, Université
+  Paris-Dauphine, Paris, France 2 ESSEC Business School of Paris, Cergy, France 3 DEI, University of Bologna,
+  Bologna, Italy

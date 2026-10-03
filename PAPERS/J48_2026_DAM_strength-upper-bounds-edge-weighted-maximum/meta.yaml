@@ -20,3 +20,14 @@ pdf:
   journal: true
   proof: false
 note: null
+abstract: 'We theoretically and computationally compare the strength of the three main upper bounds from
+  the literature on the optimal value of the Edge-Weighted Maximum Clique Problem (EWMCP). We provide
+  a set of instances for which the ratio between any of the three upper bounds and the optimal value of
+  the EWMCP is unbounded, showing that none of them can give a performance guarantee. We further analyze
+  the relative strength among the three upper bounds by determining, for every choice of a ratio between
+  any two of them, the largest values it can attain and providing families of instances for which such
+  values can be reached. Our results show that, for each pair of upper bounds, there exist appropriately
+  chosen instances on which either bound is tighter than the other. Our theoretical analysis is complemented
+  by extensive computational experiments on two benchmark datasets: the standard DIMACS instances and
+  randomly generated instances, providing practical insights into the empirical strength of the upper
+  bounds'

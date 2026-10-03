@@ -19,3 +19,13 @@ pdf:
   journal: true
   proof: false
 note: null
+abstract: We consider a generalization of the knapsack problem in which items are partitioned into classes,
+  each characterized by a fixed cost and capacity. We study three alternative Integer Linear Programming
+  formulations. For each formulation, we design an eﬃcient algorithm to compute the linear programming
+  relaxation (one of which is based on Column Generation techniques). We theoretically compare the strength
+  of the relaxations and derive specific results for a relevant case arising in benchmark instances from
+  the literature. Finally, we embed the algorithms above into a unified implicit enumeration scheme which
+  is run in parallel with an improved Dynamic Programming algorithm to effectively solve the problem to
+  proven optimality. An extensive computational analysis shows that our new exact algorithm is capable
+  of eﬃciently solving all the instances of the literature and turns out to be the best algorithm for
+  instances with a low number of classes

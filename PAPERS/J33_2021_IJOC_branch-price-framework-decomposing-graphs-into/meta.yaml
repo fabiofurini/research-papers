@@ -20,3 +20,14 @@ pdf:
   journal: true
   proof: false
 note: null
+abstract: We study the family of problems of partitioning and covering a graph into/ with a minimum number
+  of relaxed cliques. Relaxed cliques are subsets of vertices of a graph for which a clique-deﬁning property—for
+  example, the degree of the vertices, the distance between the vertices, the density of the edges, or
+  the connectivity between the vertices—is relaxed. These graph partitioning and covering problems have
+  important applications in many areas such as social network analysis, biology, and disease-spread prevention.
+  We propose a uniﬁed framework based on branch-and-price techniques to compute optimal decompositions.
+  For this purpose, new, effective pricing algorithms are developed, and new branching schemes are invented.
+  In extensive computational studies, we compare several algorithmic designs, such as structure-preserving
+  versus dichotomous branching, and their interplay with different pricing algorithms. The ﬁnal chosen
+  branch- and-price setup produces results that demonstrate the effectiveness of all components of the
+  newly developed framework and the validity of our approach when applied to social network instances

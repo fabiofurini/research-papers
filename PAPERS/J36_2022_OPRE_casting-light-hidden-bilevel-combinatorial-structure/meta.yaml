@@ -21,3 +21,20 @@ pdf:
   journal: true
   proof: false
 note: null
+abstract: Given an undirected graph, we study the capacitated vertex separator problem that asks to ﬁnd
+  a subset of vertices of minimum cardinality, the removal of which induces a graph having a bounded number
+  of pairwise disconnected shores (subsets of vertices) of limited cardinality. The problem is of great
+  importance in the analysis and protection of com- munication or social networks against possible viral
+  attacks and for matrix decomposition al- gorithms. In this article, we provide a new bilevel interpretation
+  of the problem and model it as a two-player Stackelberg game in which the leader interdicts the vertices
+  (i.e., decides on the subset of vertices to remove), and the follower solves a combinatorial optimization
+  prob- lem on the resulting graph. This approach allows us to develop a computational framework based
+  on an integer programming formulation in the natural space of the variables. Thanks to this bilevel
+  interpretation, we derive three different families of strengthening inequalities and show that they
+  can be separated in polynomial time. We also show how to extend these results to a min-max version of
+  the problem. Our extensive computational study conducted on available benchmark instances from the literature
+  reveals that our new exact method is competitive against the state-of-the-art algorithms for the capacitated
+  vertex separator prob- lem and is able to improve the best-known results for several difﬁcult classes
+  of instances. The ideas exploited in our framework can also be extended to other vertex/edge deletion/
+  insertion problems or graph partitioning problems by modeling them as two-player Stackel- berg games
+  and solving them through bilevel optimization

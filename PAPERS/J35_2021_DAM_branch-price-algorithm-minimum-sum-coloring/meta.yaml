@@ -20,3 +20,15 @@ pdf:
   journal: true
   proof: false
 note: null
+abstract: 'A proper coloring of a given graph is an assignment of a positive integer number (color) to
+  each vertex such that two adjacent vertices receive different colors. This paper studies the Minimum
+  Sum Coloring Problem (MSCP), which asks for finding a proper coloring while minimizing the sum of the
+  colors assigned to the vertices. We propose the first branch-and-price algorithm to solve the MSCP to
+  proven optimality. The newly developed exact approach is based on an Integer Programming (IP) formulation
+  with an exponential number of variables which is tackled by column generation. We present extensive
+  computational experiments, on synthetic and benchmark DIMACS graphs from the literature, to compare
+  the performance of our newly developed branch-and-price algorithm against three compact IP formulations.
+  On synthetic graphs, our algorithm outperforms the compact formulations in terms of: (i) number of solved
+  instances, (ii) running times and (iii) exit gaps obtained when optimality is not achieved. For the
+  DIMACS instances, our algorithm is competitive with the best compact formulation and provides very strong
+  dual bounds'

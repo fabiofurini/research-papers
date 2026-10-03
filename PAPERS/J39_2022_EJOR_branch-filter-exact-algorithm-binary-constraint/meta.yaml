@@ -18,3 +18,17 @@ pdf:
   journal: true
   proof: false
 note: null
+abstract: A binary constraint satisfaction problem (BCSP) consists in determining an assignment of values
+  to variables that is compatible with a set of constraints. The problem is called binary because the
+  constraints involve only pairs of variables. The BCSP is a cornerstone problem in Constraint Programming
+  (CP), appearing in a very wide range of real-world applications. In this work, we develop a new exact
+  algorithm which effectively solves the BCSP by reformulating it as a k-clique problem on the underlying
+  microstructure graph representation. Our new algorithm exploits the cutting-edge branching scheme of
+  the stateof-the-art maximum clique algorithms combined with two filtering phases in which the domains
+  of the variables are reduced. Our filtering phases are based on colouring techniques and on heuristically
+  solving an associated boolean satisfiability (SAT) problem. In addition, the algorithm initialization
+  phase performs a reordering of the microstructure graph vertices that produces an often easier reformulation
+  to solve. We carry out an extensive computational campaign on a benchmark of almost 20 0 0 instances,
+  encompassing numerous real and synthetic problems from the literature. The performance of the new algorithm
+  is compared against four SAT-based solvers and three general purpose CP solvers. Our tests reveal that
+  the new algorithm significantly outperforms all the others in several classes of BCSP instances

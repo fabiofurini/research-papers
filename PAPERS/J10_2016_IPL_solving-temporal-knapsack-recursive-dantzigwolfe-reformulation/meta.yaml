@@ -20,3 +20,13 @@ pdf:
   journal: true
   proof: false
 note: null
+abstract: The Temporal Knapsack Problem (TKP) is a generalization of the standard Knapsack Problem where
+  a time horizon is considered, and each item consumes the knapsack capacity during a limited time interval
+  only. In this paper we solve the TKP using what we call a Recursive Dantzig–Wolfe Reformulation (DWR)
+  method. The generic idea of Recursive DWR is to solve a Mixed Integer Program (MIP) by recursively applying
+  DWR, i.e., by using DWR not only for solving the original MIP but also for recursively solving the pricing
+  subproblems. In a binary case (like the TKP), the Recursive DWR method can be performed in such a way
+  that the only two components needed during the optimization are a Linear Programming solver and an algorithm
+  for solving Knapsack Problems. The Recursive DWR allows us to solve Temporal Knapsack Problem instances
+  through computation of strong dual bounds, which could not be obtained by exploiting the best-known
+  previous approach based on DWR

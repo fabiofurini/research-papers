@@ -19,3 +19,13 @@ pdf:
   journal: true
   proof: false
 note: null
+abstract: We investigate the problem of separating cover inequalities of maximum-depth exactly. We propose
+  a pseudopolynomial-time dynamic-programming algorithm for its solu- tion, thanks to which we show that
+  this problem is weakly N P-hard (similarly to the problem of separating cover inequalities of maximum
+  violation). We carry out extensive computational experiments on instances of the knapsack and the multi-
+  dimensional knapsack problems with and without conflict constraints. The results show that, with a cutting-plane
+  generation method based on the maximum-depth cri- terion, we can optimize over the cover-inequality
+  closure by generating a number of cuts smaller than when adopting the standard maximum-violation criterion.
+  We also introduce the Point-to-Hyperplane Distance Knapsack Problem (PHD-KP), a problem closely related
+  to the separation problem for maximum-depth cover inequalities, and show how the proposed dynamic programming
+  algorithm can be adapted for effec- tively solving the PHD-KP as well

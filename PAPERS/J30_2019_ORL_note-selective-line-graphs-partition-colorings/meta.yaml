@@ -20,3 +20,7 @@ pdf:
   journal: true
   proof: false
 note: null
+abstract: We extend a one-to-one correspondence between the set of all colorings of any graph and the
+  set of all stable sets of an auxiliary graph, from graphs to partitioned graphs. This correspondence
+  has an application to Selective Coloring and to Selective Max-Coloring. Selective/partition coloring
+  Line graph Stable set Max-coloring

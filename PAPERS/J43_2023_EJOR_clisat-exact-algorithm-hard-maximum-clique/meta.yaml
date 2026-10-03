@@ -20,3 +20,15 @@ pdf:
   journal: true
   proof: false
 note: null
+abstract: Given a graph, the maximum clique problem (MCP) asks for determining a complete subgraph with
+  the largest possible number of vertices. We propose a new exact algorithm, called CliSAT, to solve the
+  MCP to proven optimality. This problem is of fundamental importance in graph theory and combinatorial
+  optimization due to its practical relevance for a wide range of applications. The newly developed exact
+  approach is a combinatorial branch-and-bound algorithm that exploits the state-of-the-art branching
+  scheme enhanced by two new bounding techniques with the goal of reducing the branching tree. The first
+  one is based on graph colouring procedures and partial maximum satisfiability problems arising in the
+  branching scheme. The second one is a filtering phase based on constraint programming and domain propagation
+  techniques. CliSAT is designed for structured MCP instances which are computationally diﬃcult to solve
+  since they are dense and contain many interconnected large cliques. Extensive experiments on hard benchmark
+  instances, as well as new hard instances arising from different applications, show that CliSAT outperforms
+  the state-of-the-art MCP algorithms, in some cases by several orders of magnitude

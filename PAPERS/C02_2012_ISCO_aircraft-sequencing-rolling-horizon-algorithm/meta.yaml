@@ -19,3 +19,10 @@ pdf:
   journal: true
   proof: false
 note: null
+abstract: Aircraft sequencing on the runway is a challenging optimiza- tion problem that aims to reduce
+  the delays and the air traﬃc controllers workload in a scenario characterized by a continuous growth
+  of the air transportation demand. In this paper we consider the problem of se- quencing both arrivals
+  and departures on a single runway airport. We formalize the problem using a Mixed Integer Programming
+  Model and we propose a rolling horizon solution approach. Computational results on real-world air traﬃc
+  instances from the Milano Linate Airport are reported. The results show that the proposed approach is
+  able to signif- icantly improve on the First Come First Served (FCFS) sequence

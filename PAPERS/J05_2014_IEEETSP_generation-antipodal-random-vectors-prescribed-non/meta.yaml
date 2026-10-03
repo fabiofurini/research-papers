@@ -20,3 +20,14 @@ pdf:
   journal: true
   proof: false
 note: null
+abstract: A Look-Up-Table-based method is proposed to gen- but also in terms of the equivalent power spectrum
+  erate random instances of an antipodal -dimensional vector so such that that its 2-nd order statistics
+  are as close as possible to a given spec- ification. The method is based on linear optimization and
+  exploits column-generation techniques to cope with the exponential com- plexity of the task. It yields
+  a LUT whose storage requirements are only and thus are compatible with hardware implementa- tion for
+  non-negligible . Applications are shown in the fields of Exploiting this, one may synthesize a linear
+  filter whose Compressive Sensing and of Ultra Wide Band systems based on transfer function is such that
+  and feed it Direct Sequence – Code Division Multiple Acces. with any unit-power white process to obtain
+  an output process Index Terms—Compressed sensing, correlation, signal design, that satisfies the requirement.
+  signal generators, spread spectrum. If the desired statistics are non-stationary but we are inter- ested
+  in the samples of within a time window (say for ) we may note that the entries for

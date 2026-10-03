@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Fabio Furini — Research</title>
+<meta name="description" content="Combinatorial optimisation and integer programming: exact algorithms for packing, colouring, clique, interdiction and location problems. Publications of Fabio Furini, Sapienza University of Rome.">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📐</text></svg>">
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="#top">Fabio Furini <span>· Research</span></a>
+    <nav>
+      <a href="#themes">Themes</a>
+      <a href="#publications">Publications</a>
+      <a class="hide-sm" href="https://github.com/fabiofurini/research-papers">GitHub</a>
+      <button class="theme-btn" id="themeToggle" aria-label="Switch colour theme">◐</button>
+    </nav>
+  </div>
+</header>
+
+<div id="top" class="hero">
+  <div class="wrap">
+    <h1>Exact algorithms for<br>combinatorial optimisation</h1>
+    <p class="lede">
+      Integer programming, decomposition and combinatorial branch-and-bound, applied to packing,
+      colouring, clique, interdiction and location problems — with a consistent emphasis on
+      algorithms that solve to proven optimality instances previously out of reach.
+    </p>
+    <p class="lede" style="font-size:1rem">
+      <strong>Fabio Furini</strong> — Department of Computer, Control and Management Engineering
+      “Antonio Ruberti”, Sapienza University of Rome.
+      <a href="https://orcid.org/0000-0002-1839-5827">ORCID</a> ·
+      <a href="mailto:fabio.furini@uniroma1.it">fabio.furini@uniroma1.it</a>
+    </p>
+    <div class="stats" id="stats"></div>
+  </div>
+</div>
+
+<section id="themes">
+  <div class="wrap">
+    <h2 class="sec">Research themes</h2>
+    <p class="sec-sub">Nine lines of work. Select one to filter the publication list.</p>
+    <div class="themes" id="themeGrid"></div>
+  </div>
+</section>
+
+<section id="publications" style="padding-top:12px">
+  <div class="wrap">
+    <h2 class="sec">Publications</h2>
+    <p class="sec-sub">Every paper links to the version of record at the publisher, and to the
+      author accepted manuscript for direct download.</p>
+
+    <div class="filters">
+      <div class="search"><input id="q" type="search" placeholder="Search title, author, journal…" autocomplete="off"></div>
+      <select id="kind">
+        <option value="">All types</option>
+        <option value="journal">Journal articles</option>
+        <option value="conference">Conference papers</option>
+      </select>
+      <select id="sort">
+        <option value="year-desc">Newest first</option>
+        <option value="year-asc">Oldest first</option>
+        <option value="title">Title A–Z</option>
+      </select>
+    </div>
+    <div class="chips" id="chips"></div>
+    <div class="count-line" id="countLine"></div>
+    <div id="list"></div>
+  </div>
+</section>
+
+<footer class="site">
+  <div class="wrap">
+    <div>© Fabio Furini · Sapienza University of Rome</div>
+    <div>
+      <a href="https://github.com/fabiofurini/research-papers">Source archive</a> ·
+      <a href="https://orcid.org/0000-0002-1839-5827">ORCID</a>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/app.js"></script>
+</body>
+</html>

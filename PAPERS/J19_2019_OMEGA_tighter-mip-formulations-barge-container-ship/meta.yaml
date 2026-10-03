@@ -21,3 +21,18 @@ pdf:
   journal: true
   proof: false
 note: null
+abstract: This paper addresses the problem of optimal planning of a liner service for a barge container
+  shipping company. Given estimated weekly demands between pairs of ports, our goal is to determine the
+  subset of ports to be called and the amount of containers to be shipped between each pair of ports,
+  so as to maximize the profit of the shipping company. In order to save possible leasing or storage costs
+  of empty containers at the respective ports, our approach takes into account the repositioning of empty
+  containers. The line has to follow the outbound–inbound principle, starting from the port at the river
+  mouth. We propose a novel integrated approach in which the shipping company can simultaneously optimize
+  the route (along with repositioning of empty containers), the choice of the final port, length of the
+  turnaround time and the size of its fleet. To solve this problem, a new mixed integer programming model
+  is proposed. On the publicly available set of benchmark instances for barge container routing, we demonstrate
+  that this model provides very tight dual bounds and significantly outperforms the existing approaches
+  from the literature for splittable demands. We also show how to further improve this model by projecting
+  out arc variables for modeling the shipping of empty containers. Our numerical study indicates that
+  the latter model improves the computing times for the challenging case of unsplittable demands. We also
+  study the impact of the turnaround time optimization on the total profit of the company

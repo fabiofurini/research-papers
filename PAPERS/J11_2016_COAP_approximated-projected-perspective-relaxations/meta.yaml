@@ -19,3 +19,23 @@ pdf:
   journal: true
   proof: false
 note: null
+abstract: The perspective reformulation (PR) of a Mixed-Integer NonLinear Program with semi-continuous
+  variables is obtained by replacing each term in the (separable) objective function with its convex envelope.
+  Solving the corresponding continuous relaxation requires appropriate techniques. Under some rather restrictive
+  assumptions, the Projected PR (P2 R) can be defined where the integer variables are eliminated by projecting
+  the solution set onto the space of the continuous variables only. This approach produces a simple piecewise-convex
+  problem with the same structure as the original one; however, this prevents the use of general-purpose
+  solvers, in that some variables are then only implicitly represented in the formulation. We show how
+  to construct an Approximated Projected PR (AP2 R) whereby the projected formulation is “lifted” back
+  to the original variable space, with each integer variable expressing one piece of the obtained piecewise-convex
+  function. In some cases, this produces a reformulation of the original problem with exactly the same
+  size and structure as the standard continuous relaxation, but providing substantially improved bounds.
+  In the process we also substantially extend the approach beyond the original P2 R develop- B Antonio
+  Frangioni frangio@di.unipi.it Fabio Furini fabio.furini@dauphine.fr Claudio Gentile gentile@iasi.cnr.it
+  1 Dipartimento di Informatica, Università di Pisa, Largo B. Pontecorvo 3, 56127 Pisa, Italy 2 LAMSADE,
+  Université Paris-Dauphine, Place du Maréchal de Lattre de Tassigny, 75775 Paris, France 3 Istituto di
+  Analisi dei Sistemi ed Informatica “A. Ruberti” (IASI-CNR), Consiglio Nazionale delle Ricerche, Viale
+  Manzoni 30, Rome, Italy ment by relaxing the requirement that the objective function be quadratic and
+  the left endpoint of the domain of the variables be non-negative. While the AP2 R bound can be weaker
+  than that of the PR, this approach can be applied in many more cases and allows direct use of off-the-shelf
+  MINLP software; this is shown to be competitive with previously proposed approaches in some applications

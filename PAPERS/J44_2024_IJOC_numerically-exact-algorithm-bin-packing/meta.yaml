@@ -19,3 +19,14 @@ pdf:
   journal: true
   proof: false
 note: null
+abstract: We propose a numerically exact algorithm for solving the Bin-Packing Problem (BPP) based on
+  a branch-price-and-cut framework combined with a pattern-enumeration method. Key to the algorithm is
+  a novel technique for the computation of numerically safe dual bounds for the widely adopted set covering
+  reformulation of the BPP (tightened with additional valid inequalities) with a precision that is higher
+  than the one of general- purpose oating-point solvers. Our branch-price-and-cut algorithm also relies
+  on an exact integer ( xed-point) label setting algorithm for solving the pricing problem associated
+  with the tightened set-covering formulation. To the best of our knowledge, ours is the rst algo- rithm
+  for the BPP that is numerically exact and practical for solving large-scale instances. Extensive computational
+  results on instances affected by notorious numerical dif culties fi (those of the Augmented Non-IRUP
+  class) show that our exact algorithm outperforms all of the not numerically exact state-of-the-art algorithms
+  based on branch-and-cut-and-price techniques that rely on a set-covering formulation of the BPP

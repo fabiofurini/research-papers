@@ -19,3 +19,12 @@ pdf:
   journal: true
   proof: false
 note: null
+abstract: We study a natural generalization of the knapsack problem, in which each item exists only for
+  a given time interval. One has to select a subset of the items (as in the classical case), guaranteeing
+  that for each time instant the set of existing selected items has total weight not larger than the knapsack
+  capacity. We focus on the exact solution of the problem, noting that prior to our work the best method
+  was the straightforward application of a general-purpose solver to the natural ILP formulation. Our
+  results indicate that much better results can be obtained by using the same general-purpose solver to
+  tackle a nonstandard Dantzig-Wolfe reformulation in which subproblems are associated with groups of
+  constraints. This is also interesting since the more natural Dantzig-Wolfe reformulation of single constraints
+  performs extremely poorly in practice.

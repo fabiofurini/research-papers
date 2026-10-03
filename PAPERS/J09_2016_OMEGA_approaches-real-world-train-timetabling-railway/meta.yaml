@@ -18,3 +18,17 @@ pdf:
   journal: true
   proof: false
 note: null
+abstract: We consider the Train Timetabling Problem (TTP) in a railway node (i.e. a set of stations in
+  an urban area interconnected by tracks), which calls for determining the best schedule for a given set
+  of trains during a given time horizon, while satisfying several track operational constraints. In particular,
+  we consider the context of a highly congested railway node in which different Train Operators wish to
+  run trains according to timetables that they propose, called ideal timetables. The ideal timetables
+  altogether may be (and usually are) conflicting, i.e. they do not respect one or more of the track operational
+  constraints. The goal is to determine conflict-free timetables that differ as little as possible from
+  the ideal ones. The problem was studied for a research project funded by Rete Ferroviaria Italiana (RFI),
+  the main Italian railway Infrastructure Manager, who also provided us with real-world instances. We
+  present an Integer Linear Programming (ILP) model for the problem, which adapts previous ILP models
+  from the literature to deal with the case of a railway node. The Linear Programming (LP) relaxation
+  of the model is used to derive a dual bound. In addition, we propose an iterative heuristic algorithm
+  that is able to obtain good solutions to real-world instances with up to 1500 trains in short computing
+  times. The proposed algorithm is also used to evaluate the capacity saturation of the railway nodes

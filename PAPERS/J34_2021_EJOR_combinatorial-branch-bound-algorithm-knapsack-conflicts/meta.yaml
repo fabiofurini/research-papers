@@ -19,3 +19,18 @@ pdf:
   journal: true
   proof: false
 note: null
+abstract: 'We study the Knapsack Problem with Conflicts, a generalization of the Knapsack Problem in which
+  a set of conflicts specifies pairs of items which cannot be simultaneously selected. In this work, we
+  propose a novel combinatorial branch-and-bound algorithm for this problem based on an n-ary branching
+  scheme. Our algorithm effectively combines different procedures for pruning the branch-and-bound nodes
+  based on different relaxations of the Knapsack Problem with Conflicts. Its main elements of novelty
+  are: (i) the adoption of the branching-and-pruned set branching scheme which, while extensively used
+  in the maximum-clique literature, was never successfully employed for solving the Knapsack Problem with
+  Conflicts; (ii) the adoption of the Multiple-Choice Knapsack Problem for the derivation of upper bounds
+  used for pruning the branch-and-bound tree nodes; and (iii) the design of a new upper bound for the
+  latter problem which can be computed very eﬃciently. Key to our algorithm is its high pruning potential
+  and the low computational effort that it requires to process each branch-and-bound node. An extensive
+  set of experiments carried out on the benchmark instances typically used in the literature shows that,
+  for edge densities ranging from 0.1 to 0.9, our algorithm is faster by up to two orders of magnitude
+  than the state-of-the-art method and by up to several orders of magnitude than a state-of-the-art mixed-integer
+  linear programming solver'

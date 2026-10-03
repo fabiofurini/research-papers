@@ -20,3 +20,29 @@ pdf:
   journal: true
   proof: false
 note: null
+abstract: 'We study a family of discrete optimization problems asking for the maximization of the expected
+  value of a concave, strictly increasing, and differentiable function com- posed with a set-union operator.
+  The expected value is computed with respect to a set of coefficients taking values from a discrete set
+  of scenarios. The function models the utility function of the decision maker, while the set-union operator
+  models a cover- ing relationship between two ground sets, a set of items and a set of metaitems. This
+  problem generalizes the problem introduced by Ahmed S, Atamtürk A (Mathematical programming 128(1-2):149–169,
+  2011), and it can be modeled as a mixed integer nonlinear program involving binary decision variables
+  associated with the items and metaitems. Its goal is to find a subset of metaitems that maximizes the
+  total utility corresponding to the items it covers. It has applications to, among others, maximal covering
+  location, and influence maximization problems. In the paper, we propose a double-hypograph decomposition
+  which allows for projecting out the variables asso- ciated with the items by separately exploiting the
+  structural properties of the utility function and of the set-union operator. Thanks to it, the utility
+  function is linearized via an exact outer-approximation technique, whereas the set-union operator is
+  linearized B Stefano Coniglio s.coniglio@soton.ac.uk; stefano.coniglio@unibg.it Fabio Furini fabio.furini@uniroma1.it
+  Ivana Ljubić ivana.ljubic@essec.edu 1 Mathematical Sciences, University of Southampton, Southampton,
+  UK 2 Department of Economics, University of Bergamo, Bergamo, Italy 3 Department of Computer, Control
+  and Management Engineering “Antonio Ruberti”, Sapienza University of Rome, Rome, Italy 4 Information
+  Systems, Decision Sciences and Statistics Department, ESSEC Business School of Paris, Cergy-Pontoise,
+  France in two ways: either (i) via a reformulation based on submodular cuts, or (ii) via a Benders decomposition.
+  We analyze from a theoretical perspective the strength of the inequalities of the resulting reformulations,
+  and embed them into two branch-and-cut algorithms. We also show how to extend our reformulations to
+  the case where the utility function is not necessarily increasing. We then experimentally compare our
+  algorithms inter se, to a standard reformulation based on submodular cuts, to a state- of-the-art global-optimization
+  solver, and to the greedy algorithm for the maximization of a submodular function. The results reveal
+  that, on our testbed, the method based on combining an outer approximation with Benders cuts significantly
+  outperforms the other ones'
