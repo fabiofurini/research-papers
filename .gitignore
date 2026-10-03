@@ -19,11 +19,8 @@ PAPERS/*/latex/
 PAPERS/*/open/
 PAPERS/*/pdf/
 
-# Superseded working trees
-/LATEX/
-/PDF/
-/LIST_OF_PUBBLICATIONS/
-/EXTRA/
+# Superseded working trees, kept locally only
+/_ORIGINALE/
 
 # Build artefacts
 *.aux

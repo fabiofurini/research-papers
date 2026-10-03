@@ -1,63 +1,67 @@
-# Research Papers — Fabio Furini
+# 100_PAPERI — archivio dei paper
 
-Public archive of the peer-reviewed publications of **Fabio Furini**
-(Department of Computer, Control and Management Engineering "Antonio Ruberti",
-Sapienza University of Rome), organised by research theme.
+Riorganizzata il 3 ottobre 2026. Una cartella per paper, con dentro tutto quello
+che lo riguarda. Alimenta la pagina delle pubblicazioni del sito personale.
 
-This is a metadata repository, not a website. The PDFs are served by the
-website; this repository is the versioned record of what each paper is.
-The publications are presented at **https://fabiofurini.github.io/publications/**,
-which is generated from the files kept here.
+```
+100_PAPERI/
+├── PAPERS/        60 paper — 48 di rivista (J01–J48), 12 di conferenza (C01–C12)
+├── _COMMON/       furinipaper.sty, il preambolo LaTeX condiviso
+├── _INDEX/        indice e temi di ricerca
+└── _ORIGINALE/    i vecchi alberi, superati ma conservati
+```
 
-**48 journal articles** and **12 conference papers**, 2011–2026.
+## Com'è fatto un paper
 
-## What is here
+```
+PAPERS/J22_2019_DISOPT_vertex-k-cut/
+├── meta.yaml      autori, rivista, anno, DOI, filone, abstract, link al codice
+├── latex/         i sorgenti originali, come erano (classe dell'editore)
+├── open/          la versione unificata in classe `article` + il PDF compilato
+└── pdf/           PDF della rivista (journal.pdf) e post-print (aam.pdf)
+```
 
-| Path | Contents |
-|---|---|
-| `PAPERS/<id>/` | One directory per paper: `meta.yaml` — authors, venue, DOI, research theme, abstract, code link. |
-| `_INDEX/publications.yaml` | Complete index of all publications, in CV order. |
-| `_INDEX/themes.yaml` | The nine research themes, with the papers belonging to each. |
+Il nome della cartella è `ID_anno_RIVISTA_titolo-breve`. **L'ID segue la
+numerazione del CV**, non quella vecchia dell'archivio: le due divergevano per
+le conferenze 9 e 10, che erano invertite.
 
-Paper identifiers are stable: `J01`–`J48` for journal articles, `C01`–`C12` for
-conference papers, following the numbering of the author's CV.
+## Le tre versioni di ogni paper
 
-## Research themes
+| | Cos'è | Dove |
+|---|---|---|
+| **Originale** | i sorgenti come sono stati mandati all'editore | `latex/` |
+| **Unificata** | ricomposta in classe `article`, senza dipendenze da classi editoriali, con in testa la citazione e il DOI | `open/main.pdf` |
+| **Editoriale** | il PDF impaginato dalla rivista | `pdf/journal.pdf` |
 
-- **Bin Packing & Cutting Stock** — exact algorithms for packing and cutting problems
-- **Knapsack Problems** — variants with setups, conflicts and products
-- **Graph Coloring** — branch-and-price and DSATUR-based branch-and-bound
-- **Clique & Stable Set** — maximum clique and its weighted variants
-- **Interdiction, Blocker & Vertex Cut** — bilevel and interdiction problems on graphs
-- **Covering, Location & Submodularity** — Benders decomposition and submodular maximisation
-- **Decomposition & Reformulation** — Dantzig-Wolfe reformulation and perspective relaxations
-- **Binary Quadratic Programming** — linearisation techniques and the QPLIB library
-- **Transportation & Scheduling** — air and rail traffic optimisation
+Online va la **versione unificata**: è quella d'autore, e il diritto sul PDF
+impaginato è dell'editore. Ogni paper rimanda al DOI per la versione ufficiale.
 
-## Which version is published here
+**55 paper su 60 hanno la versione unificata.** I cinque che non ce l'hanno:
 
-The PDF published for each paper is an **author's version typeset in a uniform,
-publisher-neutral format** (LaTeX `article` class), produced from the original
-sources. The content matches the accepted manuscript; the layout is consistent
-across the whole archive and carries no publisher branding.
+- `C08`, `C09`, `C10`, `C11`, `C12` — di questi paper di conferenza **non esiste
+  alcun sorgente LaTeX**, da nessuna parte nell'archivio. Solo il PDF.
+- `C06` — il sorgente che c'è è una **bozza anteriore**, con un titolo diverso da
+  quello pubblicato. Per questo non viene pubblicato: serve il sorgente finale.
 
-This is what authors retain the right to share: for most publishers (Elsevier,
-Springer, Wiley, IEEE, INFORMS) the copyright transfer agreement assigns the
-rights to the *typeset* article to the publisher, not to the author's manuscript.
+Se quei sorgenti saltano fuori, basta metterli in `latex/` e rigenerare.
 
-Every paper links to its **DOI**, which resolves to the version of record on the
-publisher's site.
+## Da sapere
 
-A small number of older conference papers have no surviving LaTeX sources; for
-those the accepted manuscript PDF is published instead.
+- **`_ORIGINALE/` si può cancellare** quando sei sicuro: contiene i vecchi alberi
+  `LATEX/`, `PDF/`, `LIST_OF_PUBBLICATIONS/` e gli zip di `EXTRA/`, tutti già
+  copiati dentro `PAPERS/`. L'ho verificato confrontando le impronte dei file.
+  Unica eccezione: `_ORIGINALE/LATEX/OLD/` contiene 27 cartelle di versioni
+  precedenti e la tesi di dottorato, che **non** stanno altrove.
+- **`J03`**: il sorgente aveva la bibliografia disattivata. Le 14 voci mancanti
+  sono state ricostruite dal PDF pubblicato (`open/extra.bib`) — **da verificare**.
+- La cartella è sotto `git`, ma versiona **solo i metadati**: i PDF e i sorgenti
+  restano qui in Dropbox e non vengono caricati.
 
-LaTeX sources are not published in this repository.
+## Il sito
 
-## Code
+Le pubblicazioni sono pubblicate su <https://fabiofurini.github.io/publications/>,
+generato da questi `meta.yaml`. Il generatore sta in `5_CARRIERA/WEBSITE/`:
+si modifica il contenuto, si lancia `python3 build.py`, si fa commit.
 
-Where the algorithms described in a paper have a public implementation, the
-`code_url` field of `meta.yaml` links to it.
-
----
-
-Contact: `fabio.furini@uniroma1.it` · [ORCID 0000-0002-1839-5827](https://orcid.org/0000-0002-1839-5827)
+**Quando esce un paper nuovo:** crea la cartella in `PAPERS/` con il suo
+`meta.yaml`, ricompila il sito e compare da solo.
