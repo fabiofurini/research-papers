@@ -1,0 +1,20 @@
+# Materiale privato: non va pubblicato
+# Corrispondenza editoriale originale (referee report, lettere, bozze intermedie)
+PAPERS/*/latex/
+# PDF editoriali: diritto dell'editore, non ridistribuibile
+PAPERS/*/pdf/journal.pdf
+PAPERS/*/pdf/proof.pdf
+# Archivio di lavoro, superato dalla nuova struttura PAPERS/
+/LATEX/
+/PDF/
+/LIST_OF_PUBBLICATIONS/
+/EXTRA/
+# File di sistema
+.DS_Store
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+.directory

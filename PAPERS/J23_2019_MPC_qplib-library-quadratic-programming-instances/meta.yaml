@@ -1,0 +1,30 @@
+id: J23
+title: 'QPLIB: A Library of Quadratic Programming Instances'
+authors:
+- F. Furini
+- E. Traversi
+- P. Belotti
+- A. Frangioni
+- A. Gleixner
+- N. Gould
+- L. Liberti
+- A. Lodi
+- R. Misener
+- H. Mittelmann
+- N. Sahinidis
+- S. Vigerske and A. Wiegele
+year: 2019
+kind: journal
+venue: Mathematical Programming Computation, Springer.
+status: published
+doi: 10.1007/s12532-018-0147-4
+doi_url: https://doi.org/10.1007/s12532-018-0147-4
+preprint_url: null
+themes:
+- quadratic-programming
+code_url: https://github.com/fabiofurini/QPLIB
+pdf:
+  aam: true
+  journal: true
+  proof: false
+note: null

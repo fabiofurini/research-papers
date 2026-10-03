@@ -1,0 +1,22 @@
+id: J10
+title: Solving the Temporal Knapsack Problem via Recursive Dantzig–Wolfe Reformulation
+authors:
+- A. Caprara
+- F. Furini
+- E. Malaguti
+- E. Traversi
+year: 2016
+kind: journal
+venue: Information Processing Letters, Elsevier.
+status: published
+doi: 10.1016/j.ipl.2016.01.008
+doi_url: https://doi.org/10.1016/j.ipl.2016.01.008
+preprint_url: null
+themes:
+- knapsack
+code_url: null
+pdf:
+  aam: true
+  journal: true
+  proof: false
+note: null

@@ -1,0 +1,22 @@
+id: J41
+title: Submodular maximization of concave utility functions composed with a set-union operator with applications
+  to maximal covering location problems
+authors:
+- S. Coniglio
+- F. Furini
+- I. Ljubic
+year: 2022
+kind: journal
+venue: Mathematical Programming, Springer.
+status: published
+doi: 10.1007/s10107-022-01884-7
+doi_url: https://doi.org/10.1007/s10107-022-01884-7
+preprint_url: null
+themes:
+- covering-location-submodular
+code_url: https://github.com/fabiofurini/Maximizing-submodular-utility-functions
+pdf:
+  aam: true
+  journal: true
+  proof: false
+note: null

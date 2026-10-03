@@ -1,0 +1,22 @@
+id: J35
+title: A Branch-and-Price Algorithm for the Minimum Sum Coloring Problem
+authors:
+- D. Delle Donne
+- F. Furini
+- E. Malaguti
+- R. Wolfler Calvo
+year: 2021
+kind: journal
+venue: Discrete Applied Mathematics, Elsevier.
+status: published
+doi: 10.1016/j.dam.2020.08.031
+doi_url: https://doi.org/10.1016/j.dam.2020.08.031
+preprint_url: null
+themes:
+- graph-coloring
+code_url: null
+pdf:
+  aam: true
+  journal: true
+  proof: false
+note: null

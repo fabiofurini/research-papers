@@ -1,0 +1,22 @@
+id: J45
+title: Integer linear programming formulations for the maximum flow blocker problem
+authors:
+- I. Bentoumi
+- F. Furini
+- A.R. Mahjoub
+- S. Martin
+year: 2025
+kind: journal
+venue: European Journal of Operational Research, Elsevier.
+status: published
+doi: 10.2139/ssrn.4494082
+doi_url: https://doi.org/10.2139/ssrn.4494082
+preprint_url: null
+themes:
+- interdiction-blocker-vertex-cut
+code_url: null
+pdf:
+  aam: true
+  journal: true
+  proof: false
+note: null

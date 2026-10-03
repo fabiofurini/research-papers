@@ -1,0 +1,22 @@
+id: J42
+title: A Combinatorial Flow-based Formulation for Temporal Bin Packing Problems
+authors:
+- J. Martinovic
+- N. Strasdat
+- J. Valério de Carvalho
+- F. Furini
+year: 2023
+kind: journal
+venue: European Journal of Operational Research, Elsevier.
+status: published
+doi: 10.1016/j.ejor.2022.10.012
+doi_url: https://doi.org/10.1016/j.ejor.2022.10.012
+preprint_url: null
+themes:
+- bin-packing-cutting-stock
+code_url: null
+pdf:
+  aam: true
+  journal: true
+  proof: false
+note: null

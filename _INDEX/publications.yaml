@@ -1,0 +1,886 @@
+- id: J01
+  title: Exact Weighted Vertex Coloring via Branch-and-Price
+  authors:
+  - F. Furini
+  - E. Malaguti
+  year: 2012
+  kind: journal
+  venue: Discrete Optimization, Elsevier.
+  doi: 10.1016/j.disopt.2012.03.002
+  themes:
+  - graph-coloring
+  folder: J01_2012_DISOPT_exact-weighted-vertex-coloring-branch-price
+  code_url: null
+- id: J02
+  title: A Column Generation Heuristic for the Two-Dimensional Two-Staged Guillotine Cutting Stock Problem
+    with Multiple Stock Size
+  authors:
+  - F. Furini
+  - E. Malaguti
+  - R. Medina Durán
+  - A. Persiani
+  - P. Toth
+  year: 2012
+  kind: journal
+  venue: European Journal of Operational Research, Elsevier.
+  doi: 10.1016/j.ejor.2011.10.018
+  themes:
+  - bin-packing-cutting-stock
+  folder: J02_2012_EJOR_column-generation-heuristic-two-dimensional-two
+  code_url: null
+- id: J03
+  title: Uncommon Dantzig-Wolfe Reformulation for the Temporal Knapsack Problem
+  authors:
+  - A. Caprara
+  - F. Furini
+  - E. Malaguti
+  year: 2013
+  kind: journal
+  venue: INFORMS Journal on Computing, INFORMS.
+  doi: 10.1287/ijoc.1120.0521
+  themes:
+  - knapsack
+  folder: J03_2013_IJOC_uncommon-dantzig-wolfe-reformulation-temporal-knapsack
+  code_url: null
+- id: J04
+  title: Models for the Two-Dimensional Two-Stage Cutting Stock Problem with Multiple Stock Size
+  authors:
+  - F. Furini
+  - E. Malaguti
+  year: 2013
+  kind: journal
+  venue: Computer & Operations Research, Elsevier.
+  doi: 10.1016/j.cor.2013.02.026
+  themes:
+  - bin-packing-cutting-stock
+  folder: J04_2013_COR_models-two-dimensional-two-stage-cutting
+  code_url: null
+- id: J05
+  title: Generation of antipodal random vectors with prescribed non-stationary second-order statistics
+  authors:
+  - A. Caprara
+  - F. Furini
+  - A. Lodi
+  - M. Mangia
+  - R. Rovatti and G. Setti
+  year: 2014
+  kind: journal
+  venue: IEEE Transactions on Signal Processing, IEEE.
+  doi: 10.1109/tsp.2014.2302737
+  themes: []
+  folder: J05_2014_IEEETSP_generation-antipodal-random-vectors-prescribed-non
+  code_url: null
+- id: J06
+  title: Automatic Dantzig-Wolfe Reformulation of Mixed Integer Programs
+  authors:
+  - M. Bergner
+  - A. Caprara
+  - A. Ceselli
+  - F. Furini
+  - M. E. Lübbecke
+  - E. Malaguti
+  - E. Traversi
+  year: 2015
+  kind: journal
+  venue: Mathematical Programming, Springer.
+  doi: 10.1007/s10107-014-0761-5
+  themes:
+  - decomposition-reformulation
+  folder: J06_2015_MATHPROG_automatic-dantzig-wolfe-reformulation-mixed-integer
+  code_url: null
+- id: J07
+  title: Improved Rolling Horizon Algorithms for the Aircraft Sequencing Problem
+  authors:
+  - F. Furini
+  - M. P. Kidd
+  - C. Persiani
+  - P. Toth
+  year: 2015
+  kind: journal
+  venue: Journal of Scheduling, Springer.
+  doi: 10.1007/s10951-014-0415-8
+  themes:
+  - transportation-scheduling
+  folder: J07_2015_JSCHED_improved-rolling-horizon-algorithms-aircraft-sequencing
+  code_url: null
+- id: J08
+  title: Heuristic and exact algorithms for the interval min-max regret knapsack problem
+  authors:
+  - F. Furini
+  - M. Iori
+  - S. Martello
+  - M. Yagiura
+  year: 2015
+  kind: journal
+  venue: INFORMS Journal on Computing, INFORMS.
+  doi: 10.1287/ijoc.2014.0632
+  themes:
+  - knapsack
+  folder: J08_2015_IJOC_heuristic-exact-algorithms-interval-min-max
+  code_url: null
+- id: J09
+  title: Approaches to a real-world train timetabling problem in a railway node
+  authors:
+  - V. Cacchiani
+  - F. Furini and M. P. Kidd
+  year: 2016
+  kind: journal
+  venue: Omega, Elsevier.
+  doi: 10.1016/j.omega.2015.04.006
+  themes:
+  - transportation-scheduling
+  folder: J09_2016_OMEGA_approaches-real-world-train-timetabling-railway
+  code_url: null
+- id: J10
+  title: Solving the Temporal Knapsack Problem via Recursive Dantzig–Wolfe Reformulation
+  authors:
+  - A. Caprara
+  - F. Furini
+  - E. Malaguti
+  - E. Traversi
+  year: 2016
+  kind: journal
+  venue: Information Processing Letters, Elsevier.
+  doi: 10.1016/j.ipl.2016.01.008
+  themes:
+  - knapsack
+  folder: J10_2016_IPL_solving-temporal-knapsack-recursive-dantzigwolfe-reformulation
+  code_url: null
+- id: J11
+  title: Approximated Projected Perspective Relaxations
+  authors:
+  - A. Frangioni
+  - F. Furini
+  - C. Gentile
+  year: 2016
+  kind: journal
+  venue: Computational Optimization and Applications, Springer.
+  doi: 10.1007/s10589-015-9787-8
+  themes:
+  - decomposition-reformulation
+  folder: J11_2016_COAP_approximated-projected-perspective-relaxations
+  code_url: null
+- id: J12
+  title: Modeling Two-Dimensional Guillotine Cutting Problems via Integer Programming
+  authors:
+  - F. Furini
+  - E. Malaguti
+  - D. Thomopulos
+  year: 2016
+  kind: journal
+  venue: INFORMS Journal on Computing, INFORMS.
+  doi: 10.1287/ijoc.2016.0710
+  themes:
+  - bin-packing-cutting-stock
+  folder: J12_2016_IJOC_modeling-two-dimensional-guillotine-cutting-integer
+  code_url: null
+- id: J13
+  title: The Time Dependent Traveling Salesman Planning Problem in Controlled Airspace
+  authors:
+  - F. Furini
+  - C.A. Persiani
+  - P. Toth
+  year: 2016
+  kind: journal
+  venue: Transportation Research Part B, Elsevier.
+  doi: 10.1016/j.trb.2016.04.009
+  themes:
+  - transportation-scheduling
+  folder: J13_2016_TRB_time-dependent-traveling-salesman-planning-controlled
+  code_url: null
+- id: J14
+  title: Solving Vertex Coloring Problems as Maximum Weight Stable Set Problems
+  authors:
+  - D. Cornaz
+  - F. Furini
+  - E. Malaguti
+  year: 2017
+  kind: journal
+  venue: Discrete Applied Mathematics, Elsevier.
+  doi: 10.1016/j.dam.2016.09.018
+  themes:
+  - graph-coloring
+  folder: J14_2017_DAM_solving-vertex-coloring-as-maximum-weight
+  code_url: null
+- id: J15
+  title: An improved DSATUR-based Branch and Bound for the Vertex Coloring Problem
+  authors:
+  - F. Furini
+  - V. Gabrel
+  - I. C. Ternier
+  year: 2017
+  kind: journal
+  venue: Networks, Wiley.
+  doi: 10.1002/net.21716
+  themes:
+  - graph-coloring
+  folder: J15_2017_NETWORKS_improved-dsatur-based-branch-bound-vertex
+  code_url: null
+- id: J16
+  title: An effective dynamic programming algorithm for the minimum-cost maximal knapsack packing problem
+  authors:
+  - F. Furini
+  - I. Ljubić
+  - M. Sinnl
+  year: 2017
+  kind: journal
+  venue: European Journal of Operational Research, Elsevier.
+  doi: 10.1016/j.ejor.2017.03.061
+  themes:
+  - knapsack
+  folder: J16_2017_EJOR_effective-dynamic-programming-algorithm-minimum-cost
+  code_url: null
+- id: J17
+  title: Improving the Approximated Projected Perspective Reformulation by Dual Information
+  authors:
+  - A. Frangioni
+  - F. Furini
+  - C. Gentile
+  year: 2017
+  kind: journal
+  venue: Operations Research Letters, Elsevier.
+  doi: 10.1016/j.orl.2017.08.001
+  themes:
+  - decomposition-reformulation
+  folder: J17_2017_ORL_improving-approximated-projected-perspective-reformulation-by
+  code_url: null
+- id: J18
+  title: Exact Approaches for the Knapsack Problem with Setups
+  authors:
+  - F. Furini
+  - M. Monaci
+  - E. Traversi
+  year: 2018
+  kind: journal
+  venue: Computer & Operations Research, Elsevier.
+  doi: 10.1016/j.cor.2017.09.019
+  themes:
+  - knapsack
+  folder: J18_2018_COR_exact-approaches-knapsack-setups
+  code_url: null
+- id: J19
+  title: Tighter MIP formulations for Barge Container Ship Routing
+  authors:
+  - L. Alfandari
+  - T. Davidovic
+  - F. Furini
+  - I. Ljubic
+  - V. Maras and S. Martin
+  year: 2019
+  kind: journal
+  venue: Omega, Elsevier.
+  doi: 10.1016/j.omega.2017.12.002
+  themes:
+  - transportation-scheduling
+  folder: J19_2019_OMEGA_tighter-mip-formulations-barge-container-ship
+  code_url: null
+- id: J20
+  title: On the Product Knapsack Problem
+  authors:
+  - C. D'Ambrosio
+  - F. Furini
+  - M. Monaci
+  - E. Traversi
+  year: 2018
+  kind: journal
+  venue: Optimization Letters, Springer.
+  doi: 10.1007/s11590-017-1227-5
+  themes:
+  - knapsack
+  folder: J20_2018_OPTLETT_product-knapsack
+  code_url: null
+- id: J21
+  title: An Exact Algorithm for the Partition Coloring Problem
+  authors:
+  - F. Furini
+  - E. Malaguti and A. Santini
+  year: 2018
+  kind: journal
+  venue: Computer & Operations Research, Elsevier.
+  doi: 10.1016/j.cor.2017.12.019
+  themes:
+  - graph-coloring
+  folder: J21_2018_COR_exact-algorithm-partition-coloring
+  code_url: null
+- id: J22
+  title: The Vertex k-cut Problem
+  authors:
+  - D. Cornaz
+  - F. Furini
+  - M. Lacroix
+  - E. Malaguti
+  - A. R. Mahjoub
+  - S. Martin
+  year: 2019
+  kind: journal
+  venue: Discrete Optimization, Elsevier.
+  doi: 10.1016/j.disopt.2018.07.003
+  themes:
+  - interdiction-blocker-vertex-cut
+  folder: J22_2019_DISOPT_vertex-k-cut
+  code_url: null
+- id: J23
+  title: 'QPLIB: A Library of Quadratic Programming Instances'
+  authors:
+  - F. Furini
+  - E. Traversi
+  - P. Belotti
+  - A. Frangioni
+  - A. Gleixner
+  - N. Gould
+  - L. Liberti
+  - A. Lodi
+  - R. Misener
+  - H. Mittelmann
+  - N. Sahinidis
+  - S. Vigerske and A. Wiegele
+  year: 2019
+  kind: journal
+  venue: Mathematical Programming Computation, Springer.
+  doi: 10.1007/s12532-018-0147-4
+  themes:
+  - quadratic-programming
+  folder: J23_2019_MPC_qplib-library-quadratic-programming-instances
+  code_url: https://github.com/fabiofurini/QPLIB
+- id: J24
+  title: Theoretical and computational study of several linearisation techniques for Binary Quadratic
+    Problems
+  authors:
+  - F. Furini
+  - E. Traversi
+  year: 2019
+  kind: journal
+  venue: Annals of Operations Research, Springer.
+  doi: 10.1007/s10479-018-3118-2
+  themes:
+  - quadratic-programming
+  folder: J24_2019_AOR_theoretical-computational-study-several-linearisation-techniques
+  code_url: null
+- id: J25
+  title: Benders Decomposition for Very Large Scale Partial Set Covering and Maximal Covering Location
+    Problems
+  authors:
+  - J.F. Cordeau
+  - F. Furini
+  - I. Ljubic
+  year: 2019
+  kind: journal
+  venue: European Journal of Operational Research, Elsevier.
+  doi: 10.1016/j.ejor.2018.12.021
+  themes:
+  - covering-location-submodular
+  folder: J25_2019_EJOR_benders-decomposition-very-large-scale-partial
+  code_url: https://github.com/fabiofurini/LocationCovering
+- id: J26
+  title: The Maximum Clique Interdiction Problem
+  authors:
+  - F. Furini
+  - I. Ljubic
+  - S. Martin
+  - P. San Segundo
+  year: 2019
+  kind: journal
+  venue: European Journal of Operational Research, Elsevier.
+  doi: 10.1016/j.ejor.2019.02.028
+  themes:
+  - clique-stable-set
+  folder: J26_2019_EJOR_maximum-clique-interdiction
+  code_url: null
+- id: J27
+  title: A new branch-and-bound algorithm for the maximum edge-weighted clique problem
+  authors:
+  - P. San Segundo
+  - S. Coniglio
+  - F. Furini
+  - I. Ljubic
+  year: 2019
+  kind: journal
+  venue: European Journal of Operational Research, Elsevier.
+  doi: 10.1016/j.ejor.2019.03.047
+  themes:
+  - clique-stable-set
+  folder: J27_2019_EJOR_branch-bound-algorithm-maximum-edge-weighted
+  code_url: null
+- id: J28
+  title: A new branch-and-bound algorithm for the Maximum Weighted Clique Problem
+  authors:
+  - P. San Segundo
+  - F. Furini
+  - J. Artieda
+  year: 2019
+  kind: journal
+  venue: Computer & Operations Research, Elsevier.
+  doi: 10.1016/j.cor.2019.05.017
+  themes:
+  - clique-stable-set
+  folder: J28_2019_COR_branch-bound-algorithm-maximum-weighted-clique
+  code_url: null
+- id: J29
+  title: On Integer and Bilevel Formulations for the k-Vertex Cut Problem
+  authors:
+  - F. Furini
+  - I. Ljubic
+  - E. Malaguti
+  - P. Paronuzzi
+  year: 2020
+  kind: journal
+  venue: Mathematical Programming Computation, Springer.
+  doi: 10.1007/s12532-019-00167-1
+  themes:
+  - interdiction-blocker-vertex-cut
+  folder: J29_2020_MPC_integer-bilevel-formulations-k-vertex-cut
+  code_url: null
+- id: J30
+  title: A note on Selective line-graphs and partition colorings
+  authors:
+  - D. Cornaz
+  - F. Furini
+  - E. Malaguti
+  - A. Santini
+  year: 2019
+  kind: journal
+  venue: Operations Research Letters, Springer.
+  doi: 10.1016/j.orl.2019.08.005
+  themes:
+  - graph-coloring
+  folder: J30_2019_ORL_note-selective-line-graphs-partition-colorings
+  code_url: null
+- id: J31
+  title: A lexicographic pricer for the fractional bin packing problem
+  authors:
+  - S. Coniglio
+  - F. D'Andreagiovanni
+  - F. Furini
+  year: 2019
+  kind: journal
+  venue: Operations Research Letters, Springer.
+  doi: 10.1016/j.orl.2019.10.011
+  themes:
+  - bin-packing-cutting-stock
+  folder: J31_2019_ORL_lexicographic-pricer-fractional-bin-packing
+  code_url: null
+- id: J32
+  title: A branch-and-price algorithm for the temporal bin packing problem
+  authors:
+  - M. Dell'Amico
+  - F. Furini
+  - M. Iori
+  year: 2020
+  kind: journal
+  venue: Computer & Operations Research, Elsevier.
+  doi: 10.1016/j.cor.2019.104825
+  themes:
+  - bin-packing-cutting-stock
+  folder: J32_2020_COR_branch-price-algorithm-temporal-bin-packing
+  code_url: null
+- id: J33
+  title: A Branch-and-Price Framework for Decomposing Graphs into Relaxed Cliques
+  authors:
+  - T. Gschwind
+  - S. Irnich
+  - F. Furini
+  - R. Wolfler Calvo
+  year: 2021
+  kind: journal
+  venue: INFORMS Journal on Computing, INFORMS.
+  doi: 10.1287/ijoc.2020.0984
+  themes:
+  - clique-stable-set
+  folder: J33_2021_IJOC_branch-price-framework-decomposing-graphs-into
+  code_url: null
+- id: J34
+  title: A new combinatorial branch-and-bound algorithm for the Knapsack Problem with Conflicts
+  authors:
+  - S. Coniglio
+  - F. Furini
+  - P. San Segundo
+  year: 2021
+  kind: journal
+  venue: European Journal of Operational Research, Elsevier.
+  doi: 10.1016/j.ejor.2020.07.023
+  themes:
+  - knapsack
+  folder: J34_2021_EJOR_combinatorial-branch-bound-algorithm-knapsack-conflicts
+  code_url: null
+- id: J35
+  title: A Branch-and-Price Algorithm for the Minimum Sum Coloring Problem
+  authors:
+  - D. Delle Donne
+  - F. Furini
+  - E. Malaguti
+  - R. Wolfler Calvo
+  year: 2021
+  kind: journal
+  venue: Discrete Applied Mathematics, Elsevier.
+  doi: 10.1016/j.dam.2020.08.031
+  themes:
+  - graph-coloring
+  folder: J35_2021_DAM_branch-price-algorithm-minimum-sum-coloring
+  code_url: null
+- id: J36
+  title: Casting Light on the Hidden Bilevel Combinatorial Structure of the Capacitated Vertex Separator
+    Problem
+  authors:
+  - F. Furini
+  - I. Ljubić
+  - E. Malaguti
+  - P. Paronuzzi
+  year: 2022
+  kind: journal
+  venue: Operations Research, INFORMS.
+  doi: 10.1287/opre.2021.2110
+  themes:
+  - interdiction-blocker-vertex-cut
+  folder: J36_2022_OPRE_casting-light-hidden-bilevel-combinatorial-structure
+  code_url: null
+- id: J37
+  title: A branch-and-cut algorithm for the Edge Interdiction Clique Problem
+  authors:
+  - F. Furini
+  - I. Ljubic
+  - P. San Segundo
+  - Y. Zhao
+  year: 2021
+  kind: journal
+  venue: European Journal of Operational Research, Elsevier.
+  doi: 10.1016/j.ejor.2021.01.030
+  themes:
+  - interdiction-blocker-vertex-cut
+  folder: J37_2021_EJOR_branch-cut-algorithm-edge-interdiction-clique
+  code_url: null
+- id: J38
+  title: On the exact separation of cover inequalities of maximum-depth
+  authors:
+  - D. Catanzaro
+  - S. Coniglio
+  - F. Furini
+  year: 2022
+  kind: journal
+  venue: Optimization Letters, Springer.
+  doi: 10.1007/s11590-021-01741-0
+  themes:
+  - knapsack
+  folder: J38_2022_OPTLETT_exact-separation-cover-inequalities-maximum-depth
+  code_url: https://github.com/fabiofurini/COVER_MAX_DEPTH
+- id: J39
+  title: A new branch-and-filter exact algorithm for binary constraint satisfaction problems
+  authors:
+  - P. San Segundo
+  - F. Furini
+  - R. Le\'on
+  year: 2022
+  kind: journal
+  venue: European Journal of Operational Research, Elsevier.
+  doi: 10.1016/j.ejor.2021.09.014
+  themes: []
+  folder: J39_2022_EJOR_branch-filter-exact-algorithm-binary-constraint
+  code_url: null
+- id: J40
+  title: Variable and constraint reduction techniques for the temporal bin packing problem with fire-ups
+  authors:
+  - J. Martinovic
+  - N. Strasdat
+  - J. Valerio de Carvalho
+  - F. Furini
+  year: 2022
+  kind: journal
+  venue: Optimization Letters, Springer.
+  doi: 10.1007/s11590-021-01825-x
+  themes:
+  - bin-packing-cutting-stock
+  folder: J40_2022_OPTLETT_variable-constraint-reduction-techniques-temporal-bin
+  code_url: null
+- id: J41
+  title: Submodular maximization of concave utility functions composed with a set-union operator with
+    applications to maximal covering location problems
+  authors:
+  - S. Coniglio
+  - F. Furini
+  - I. Ljubic
+  year: 2022
+  kind: journal
+  venue: Mathematical Programming, Springer.
+  doi: 10.1007/s10107-022-01884-7
+  themes:
+  - covering-location-submodular
+  folder: J41_2022_MATHPROG_submodular-maximization-concave-utility-functions-composed
+  code_url: https://github.com/fabiofurini/Maximizing-submodular-utility-functions
+- id: J42
+  title: A Combinatorial Flow-based Formulation for Temporal Bin Packing Problems
+  authors:
+  - J. Martinovic
+  - N. Strasdat
+  - J. Valério de Carvalho
+  - F. Furini
+  year: 2023
+  kind: journal
+  venue: European Journal of Operational Research, Elsevier.
+  doi: 10.1016/j.ejor.2022.10.012
+  themes:
+  - bin-packing-cutting-stock
+  folder: J42_2023_EJOR_combinatorial-flow-based-formulation-temporal-bin
+  code_url: null
+- id: J43
+  title: 'CliSAT: a new exact algorithm for hard maximum clique problems'
+  authors:
+  - P. San Segundo
+  - F. Furini
+  - D. Alvarez
+  - P. Pardalos
+  year: 2023
+  kind: journal
+  venue: European Journal of Operational Research, Elsevier.
+  doi: 10.1016/j.ejor.2022.10.028
+  themes:
+  - clique-stable-set
+  folder: J43_2023_EJOR_clisat-exact-algorithm-hard-maximum-clique
+  code_url: null
+- id: J44
+  title: A Numerically Exact Algorithm for the Bin-Packing Problem
+  authors:
+  - R. Baldacci
+  - S. Coniglio
+  - F. Furini
+  year: 2024
+  kind: journal
+  venue: INFORMS Journal on Computing, INFORMS.
+  doi: 10.1287/ijoc.2022.0257
+  themes:
+  - bin-packing-cutting-stock
+  folder: J44_2024_IJOC_numerically-exact-algorithm-bin-packing
+  code_url: https://github.com/fabiofurini/bpp-numerically-exact
+- id: J45
+  title: Integer linear programming formulations for the maximum flow blocker problem
+  authors:
+  - I. Bentoumi
+  - F. Furini
+  - A.R. Mahjoub
+  - S. Martin
+  year: 2025
+  kind: journal
+  venue: European Journal of Operational Research, Elsevier.
+  doi: 10.2139/ssrn.4494082
+  themes:
+  - interdiction-blocker-vertex-cut
+  folder: J45_2025_EJOR_integer-linear-programming-formulations-maximum-flow
+  code_url: null
+- id: J46
+  title: 'Exact Algorithms for Two-Dimensional Knapsack Problems: A Unified Framework with New Benchmark
+    Results'
+  authors:
+  - S. Wang
+  - R. Baldacci
+  - F. Furini
+  - L. Wei
+  - Q. Liu
+  year: 2026
+  kind: journal
+  venue: INFORMS Journal on Computing, INFORMS.
+  doi: null
+  themes:
+  - bin-packing-cutting-stock
+  folder: J46_2026_IJOC_exact-algorithms-two-dimensional-knapsack-unified
+  code_url: null
+- id: J47
+  title: An Exact Approach for the Train Single-Routing Selection Problem
+  authors:
+  - A.L. Croella
+  - F. Furini
+  - I. Ljubic
+  - B. Pascariu
+  - P. Pellegrini
+  - P. San Segundo
+  year: 2026
+  kind: journal
+  venue: European Journal of Operational Research, Elsevier.
+  doi: 10.1016/j.ejor.2026.08.028
+  themes:
+  - transportation-scheduling
+  folder: J47_2026_EJOR_exact-approach-train-single-routing-selection
+  code_url: null
+- id: J48
+  title: Strength of the Upper Bounds for the Edge-Weighted Maximum Clique Problem
+  authors:
+  - F. Ciccarelli
+  - V. Dose
+  - F. Furini
+  - M. Monaci
+  year: 2026
+  kind: journal
+  venue: Discrete Applied Mathematics, Elsevier.
+  doi: 10.1016/j.dam.2026.09.019
+  themes:
+  - clique-stable-set
+  folder: J48_2026_DAM_strength-upper-bounds-edge-weighted-maximum
+  code_url: null
+- id: C01
+  title: Partial convexification of general MIPs by Dantzig-Wolfe reformulation
+  authors:
+  - M. Bergner
+  - A. Caprara
+  - F. Furini
+  - M.E. Lübbecke
+  - E. Malaguti
+  - E. Traversi
+  year: 2011
+  kind: conference
+  venue: 15th International Conference on Integer Programming and Combinatorial Optimization (IPCO 2011),
+    New York, USA, June 2011 (12 pages).
+  doi: null
+  themes: []
+  folder: C01_2011_IPCO_partial-convexification-general-mips-by-dantzig
+  code_url: null
+- id: C02
+  title: Aircraft Sequencing Problems via a Rolling Horizon Algorithm
+  authors:
+  - F. Furini
+  - C. Persiani
+  - P. Toth
+  year: 2012
+  kind: conference
+  venue: 3rd International Symposium on Combinatorial Optimization (ISCO 2012), Athens, Greece, April
+    2012 (12 pages).
+  doi: null
+  themes: []
+  folder: C02_2012_ISCO_aircraft-sequencing-rolling-horizon-algorithm
+  code_url: null
+- id: C03
+  title: Hybrid SDP Bounding Procedure
+  authors:
+  - F. Furini
+  - E. Traversi
+  year: 2013
+  kind: conference
+  venue: 12th International Symposium on Experimental Algorithms (SEA 2013), Rome, Italy, June 2013 (12
+    pages).
+  doi: null
+  themes: []
+  folder: C03_2013_SEA_hybrid-sdp-bounding-procedure
+  code_url: null
+- id: C04
+  title: A fast heuristic approach for train timetabling in a railway node
+  authors:
+  - F. Furini
+  - M. P. Kidd
+  year: 2013
+  kind: conference
+  venue: 6th International Network Optimization Conference (INOC 2013), Tenerife, Spain, May 2013 (8 pages).
+  doi: null
+  themes: []
+  folder: C04_2013_INOC_fast-heuristic-approach-train-timetabling-railway
+  code_url: null
+- id: C05
+  title: State space reduced dynamic programming for the aircraft sequencing problem with constrained
+    position shifting
+  authors:
+  - F. Furini
+  - M. P. Kidd
+  - A. Persiani
+  - P. Toth
+  year: 2014
+  kind: conference
+  venue: 4th International Symposium on Combinatorial Optimization (ISCO 2014), Lisbon, Portugal, March
+    2014 (12 pages).
+  doi: null
+  themes: []
+  folder: C05_2014_ISCO_state-space-reduced-dynamic-programming-aircraft
+  code_url: null
+- id: C06
+  title: Mathematical Formulations for the Balanced Vertex k -Separator Problem
+  authors:
+  - D. Cornaz
+  - F. Furini
+  - M. Lacroix
+  - E. Malaguti
+  - A. R. Mahjoub
+  - S. Martin
+  year: 2014
+  kind: conference
+  venue: International Conference on Control, Decision and Information Technologies (CoDIT 2014), Metz,
+    France, November 2014 (8 pages).
+  doi: null
+  themes: []
+  folder: C06_2014_CODIT_mathematical-formulations-balanced-vertex-k-separator
+  code_url: null
+- id: C07
+  title: ILP and CP Formulations for the Lazy Bureaucrat Problem
+  authors:
+  - I. Ljubic
+  - F. Furini
+  - M. Sinnl
+  year: 2015
+  kind: conference
+  venue: 12th International Conference on Integration of Artificial Intelligence and Operations Research
+    Techniques in Constraint Programming (CPAIOR 2015), Barcelona, Spain, May 2015 (15 pages).
+  doi: null
+  themes: []
+  folder: C07_2015_CPAIOR_ilp-cp-formulations-lazy-bureaucrat
+  code_url: null
+- id: C08
+  title: Lower Bounding Techniques for DSATUR-based Branch and Bound
+  authors:
+  - F. Furini
+  - V. Gabrel
+  - I. C. Ternier
+  year: 2015
+  kind: conference
+  venue: 7th International Network Optimization Conference (INOC 2015), Warsaw, Poland, June 2015 (8 pages).
+  doi: null
+  themes: []
+  folder: C08_2015_INOC_lower-bounding-techniques-dsatur-based-branch
+  code_url: null
+- id: C09
+  title: Matheuristics for the Temporal Bin Packing Problem
+  authors:
+  - F. Furini and X. Shen
+  year: 2015
+  kind: conference
+  venue: 11th Metaheuristics International Conference (MIC 2015), Agadir, Morocco, June 2015 (13 pages).
+  doi: null
+  themes: []
+  folder: C09_2015_MIC_matheuristics-temporal-bin-packing
+  code_url: null
+- id: C10
+  title: MIP Formulations for a Rich Real-world Lot-sizing Problem with Setup Carryover
+  authors:
+  - F. Focacci
+  - F. Furini
+  - V. Gabrel
+  - D. Godard and X. Shen
+  year: 2016
+  kind: conference
+  venue: 5th International Symposium on Combinatorial Optimization (ISCO 2016), Vietri sul Mare, Italy,
+    May 2016 (12 pages).
+  doi: null
+  themes: []
+  folder: C10_2016_ISCO_mip-formulations-rich-real-world-lot
+  code_url: null
+- id: C11
+  title: ILP Models and Column Generation for the Minimum Sum Coloring Problem
+  authors:
+  - F. Furini
+  - E. Malaguti
+  - S. Martin and I.-C. Ternier
+  year: 2017
+  kind: conference
+  venue: 8th International Network Optimization Conference (INOC 2017), Lisbon, Portugal, February 2017
+    (10 pages).
+  doi: null
+  themes: []
+  folder: C11_2017_INOC_ilp-models-column-generation-minimum-sum
+  code_url: null
+- id: C12
+  title: A Branch-and-Benders-Cut Approach to Solve the Maximum Flow Blocker Problem
+  authors:
+  - I. Bentoumi
+  - F. Furini
+  - A.R. Mahjoub
+  - S. Martin
+  year: 2023
+  kind: conference
+  venue: 9th International Conference on Control, Decision and Information Technologies (CoDIT 2023),
+    Rome, Italy, July 2023 (4 pages).
+  doi: null
+  themes: []
+  folder: C12_2023_CODIT_branch-benders-cut-approach-solve-maximum
+  code_url: null

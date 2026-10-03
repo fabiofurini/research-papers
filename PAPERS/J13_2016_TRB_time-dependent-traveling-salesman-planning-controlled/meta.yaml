@@ -1,0 +1,21 @@
+id: J13
+title: The Time Dependent Traveling Salesman Planning Problem in Controlled Airspace
+authors:
+- F. Furini
+- C.A. Persiani
+- P. Toth
+year: 2016
+kind: journal
+venue: Transportation Research Part B, Elsevier.
+status: published
+doi: 10.1016/j.trb.2016.04.009
+doi_url: https://doi.org/10.1016/j.trb.2016.04.009
+preprint_url: null
+themes:
+- transportation-scheduling
+code_url: null
+pdf:
+  aam: true
+  journal: true
+  proof: false
+note: null

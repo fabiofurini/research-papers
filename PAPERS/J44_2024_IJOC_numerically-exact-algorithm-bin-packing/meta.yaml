@@ -1,0 +1,21 @@
+id: J44
+title: A Numerically Exact Algorithm for the Bin-Packing Problem
+authors:
+- R. Baldacci
+- S. Coniglio
+- F. Furini
+year: 2024
+kind: journal
+venue: INFORMS Journal on Computing, INFORMS.
+status: published
+doi: 10.1287/ijoc.2022.0257
+doi_url: https://doi.org/10.1287/ijoc.2022.0257
+preprint_url: null
+themes:
+- bin-packing-cutting-stock
+code_url: https://github.com/fabiofurini/bpp-numerically-exact
+pdf:
+  aam: true
+  journal: true
+  proof: false
+note: null

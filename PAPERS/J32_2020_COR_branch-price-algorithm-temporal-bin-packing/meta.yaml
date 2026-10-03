@@ -1,0 +1,21 @@
+id: J32
+title: A branch-and-price algorithm for the temporal bin packing problem
+authors:
+- M. Dell'Amico
+- F. Furini
+- M. Iori
+year: 2020
+kind: journal
+venue: Computer & Operations Research, Elsevier.
+status: published
+doi: 10.1016/j.cor.2019.104825
+doi_url: https://doi.org/10.1016/j.cor.2019.104825
+preprint_url: null
+themes:
+- bin-packing-cutting-stock
+code_url: null
+pdf:
+  aam: true
+  journal: true
+  proof: false
+note: null

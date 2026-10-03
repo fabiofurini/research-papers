@@ -1,0 +1,22 @@
+id: J33
+title: A Branch-and-Price Framework for Decomposing Graphs into Relaxed Cliques
+authors:
+- T. Gschwind
+- S. Irnich
+- F. Furini
+- R. Wolfler Calvo
+year: 2021
+kind: journal
+venue: INFORMS Journal on Computing, INFORMS.
+status: published
+doi: 10.1287/ijoc.2020.0984
+doi_url: https://doi.org/10.1287/ijoc.2020.0984
+preprint_url: null
+themes:
+- clique-stable-set
+code_url: null
+pdf:
+  aam: true
+  journal: true
+  proof: false
+note: null

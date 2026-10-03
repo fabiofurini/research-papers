@@ -1,0 +1,24 @@
+id: C06
+title: Mathematical Formulations for the Balanced Vertex k -Separator Problem
+authors:
+- D. Cornaz
+- F. Furini
+- M. Lacroix
+- E. Malaguti
+- A. R. Mahjoub
+- S. Martin
+year: 2014
+kind: conference
+venue: International Conference on Control, Decision and Information Technologies (CoDIT 2014), Metz,
+  France, November 2014 (8 pages).
+status: published
+doi: null
+doi_url: null
+preprint_url: null
+themes: []
+code_url: null
+pdf:
+  aam: true
+  journal: true
+  proof: false
+note: null

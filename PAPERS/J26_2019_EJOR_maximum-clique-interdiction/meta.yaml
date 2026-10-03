@@ -1,0 +1,22 @@
+id: J26
+title: The Maximum Clique Interdiction Problem
+authors:
+- F. Furini
+- I. Ljubic
+- S. Martin
+- P. San Segundo
+year: 2019
+kind: journal
+venue: European Journal of Operational Research, Elsevier.
+status: published
+doi: 10.1016/j.ejor.2019.02.028
+doi_url: https://doi.org/10.1016/j.ejor.2019.02.028
+preprint_url: null
+themes:
+- clique-stable-set
+code_url: null
+pdf:
+  aam: true
+  journal: true
+  proof: false
+note: null

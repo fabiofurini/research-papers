@@ -1,0 +1,20 @@
+id: J39
+title: A new branch-and-filter exact algorithm for binary constraint satisfaction problems
+authors:
+- P. San Segundo
+- F. Furini
+- R. Le\'on
+year: 2022
+kind: journal
+venue: European Journal of Operational Research, Elsevier.
+status: published
+doi: 10.1016/j.ejor.2021.09.014
+doi_url: https://doi.org/10.1016/j.ejor.2021.09.014
+preprint_url: null
+themes: []
+code_url: null
+pdf:
+  aam: true
+  journal: true
+  proof: false
+note: null

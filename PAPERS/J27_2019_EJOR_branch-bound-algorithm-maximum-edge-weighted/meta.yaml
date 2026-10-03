@@ -1,0 +1,22 @@
+id: J27
+title: A new branch-and-bound algorithm for the maximum edge-weighted clique problem
+authors:
+- P. San Segundo
+- S. Coniglio
+- F. Furini
+- I. Ljubic
+year: 2019
+kind: journal
+venue: European Journal of Operational Research, Elsevier.
+status: published
+doi: 10.1016/j.ejor.2019.03.047
+doi_url: https://doi.org/10.1016/j.ejor.2019.03.047
+preprint_url: null
+themes:
+- clique-stable-set
+code_url: null
+pdf:
+  aam: true
+  journal: true
+  proof: false
+note: null

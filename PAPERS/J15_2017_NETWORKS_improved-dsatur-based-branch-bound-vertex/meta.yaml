@@ -1,0 +1,21 @@
+id: J15
+title: An improved DSATUR-based Branch and Bound for the Vertex Coloring Problem
+authors:
+- F. Furini
+- V. Gabrel
+- I. C. Ternier
+year: 2017
+kind: journal
+venue: Networks, Wiley.
+status: published
+doi: 10.1002/net.21716
+doi_url: https://doi.org/10.1002/net.21716
+preprint_url: null
+themes:
+- graph-coloring
+code_url: null
+pdf:
+  aam: true
+  journal: true
+  proof: false
+note: null

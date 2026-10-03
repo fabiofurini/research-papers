@@ -1,0 +1,21 @@
+id: J25
+title: Benders Decomposition for Very Large Scale Partial Set Covering and Maximal Covering Location Problems
+authors:
+- J.F. Cordeau
+- F. Furini
+- I. Ljubic
+year: 2019
+kind: journal
+venue: European Journal of Operational Research, Elsevier.
+status: published
+doi: 10.1016/j.ejor.2018.12.021
+doi_url: https://doi.org/10.1016/j.ejor.2018.12.021
+preprint_url: null
+themes:
+- covering-location-submodular
+code_url: https://github.com/fabiofurini/LocationCovering
+pdf:
+  aam: true
+  journal: true
+  proof: false
+note: null

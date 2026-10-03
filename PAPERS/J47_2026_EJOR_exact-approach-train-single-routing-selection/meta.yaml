@@ -1,0 +1,24 @@
+id: J47
+title: An Exact Approach for the Train Single-Routing Selection Problem
+authors:
+- A.L. Croella
+- F. Furini
+- I. Ljubic
+- B. Pascariu
+- P. Pellegrini
+- P. San Segundo
+year: 2026
+kind: journal
+venue: European Journal of Operational Research, Elsevier.
+status: accepted
+doi: 10.1016/j.ejor.2026.08.028
+doi_url: https://doi.org/10.1016/j.ejor.2026.08.028
+preprint_url: null
+themes:
+- transportation-scheduling
+code_url: null
+pdf:
+  aam: false
+  journal: true
+  proof: false
+note: null

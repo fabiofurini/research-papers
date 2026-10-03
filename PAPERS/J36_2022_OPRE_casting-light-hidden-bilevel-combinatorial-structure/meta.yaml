@@ -1,0 +1,23 @@
+id: J36
+title: Casting Light on the Hidden Bilevel Combinatorial Structure of the Capacitated Vertex Separator
+  Problem
+authors:
+- F. Furini
+- I. Ljubić
+- E. Malaguti
+- P. Paronuzzi
+year: 2022
+kind: journal
+venue: Operations Research, INFORMS.
+status: published
+doi: 10.1287/opre.2021.2110
+doi_url: https://doi.org/10.1287/opre.2021.2110
+preprint_url: null
+themes:
+- interdiction-blocker-vertex-cut
+code_url: null
+pdf:
+  aam: true
+  journal: true
+  proof: false
+note: null

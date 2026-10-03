@@ -1,0 +1,22 @@
+id: J05
+title: Generation of antipodal random vectors with prescribed non-stationary second-order statistics
+authors:
+- A. Caprara
+- F. Furini
+- A. Lodi
+- M. Mangia
+- R. Rovatti and G. Setti
+year: 2014
+kind: journal
+venue: IEEE Transactions on Signal Processing, IEEE.
+status: published
+doi: 10.1109/tsp.2014.2302737
+doi_url: https://doi.org/10.1109/tsp.2014.2302737
+preprint_url: null
+themes: []
+code_url: null
+pdf:
+  aam: true
+  journal: true
+  proof: false
+note: null

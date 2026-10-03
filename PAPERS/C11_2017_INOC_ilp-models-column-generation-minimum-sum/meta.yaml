@@ -1,0 +1,21 @@
+id: C11
+title: ILP Models and Column Generation for the Minimum Sum Coloring Problem
+authors:
+- F. Furini
+- E. Malaguti
+- S. Martin and I.-C. Ternier
+year: 2017
+kind: conference
+venue: 8th International Network Optimization Conference (INOC 2017), Lisbon, Portugal, February 2017
+  (10 pages).
+status: published
+doi: null
+doi_url: null
+preprint_url: null
+themes: []
+code_url: null
+pdf:
+  aam: true
+  journal: true
+  proof: false
+note: null

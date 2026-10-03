@@ -1,0 +1,20 @@
+id: J24
+title: Theoretical and computational study of several linearisation techniques for Binary Quadratic Problems
+authors:
+- F. Furini
+- E. Traversi
+year: 2019
+kind: journal
+venue: Annals of Operations Research, Springer.
+status: published
+doi: 10.1007/s10479-018-3118-2
+doi_url: https://doi.org/10.1007/s10479-018-3118-2
+preprint_url: null
+themes:
+- quadratic-programming
+code_url: null
+pdf:
+  aam: true
+  journal: true
+  proof: false
+note: null

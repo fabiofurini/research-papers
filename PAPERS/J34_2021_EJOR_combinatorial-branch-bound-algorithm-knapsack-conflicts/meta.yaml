@@ -1,0 +1,21 @@
+id: J34
+title: A new combinatorial branch-and-bound algorithm for the Knapsack Problem with Conflicts
+authors:
+- S. Coniglio
+- F. Furini
+- P. San Segundo
+year: 2021
+kind: journal
+venue: European Journal of Operational Research, Elsevier.
+status: published
+doi: 10.1016/j.ejor.2020.07.023
+doi_url: https://doi.org/10.1016/j.ejor.2020.07.023
+preprint_url: null
+themes:
+- knapsack
+code_url: null
+pdf:
+  aam: true
+  journal: true
+  proof: false
+note: null

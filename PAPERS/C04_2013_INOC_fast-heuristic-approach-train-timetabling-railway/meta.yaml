@@ -1,0 +1,19 @@
+id: C04
+title: A fast heuristic approach for train timetabling in a railway node
+authors:
+- F. Furini
+- M. P. Kidd
+year: 2013
+kind: conference
+venue: 6th International Network Optimization Conference (INOC 2013), Tenerife, Spain, May 2013 (8 pages).
+status: published
+doi: null
+doi_url: null
+preprint_url: null
+themes: []
+code_url: null
+pdf:
+  aam: true
+  journal: true
+  proof: false
+note: null

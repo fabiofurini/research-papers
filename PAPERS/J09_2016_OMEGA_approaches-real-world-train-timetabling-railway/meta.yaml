@@ -1,0 +1,20 @@
+id: J09
+title: Approaches to a real-world train timetabling problem in a railway node
+authors:
+- V. Cacchiani
+- F. Furini and M. P. Kidd
+year: 2016
+kind: journal
+venue: Omega, Elsevier.
+status: published
+doi: 10.1016/j.omega.2015.04.006
+doi_url: https://doi.org/10.1016/j.omega.2015.04.006
+preprint_url: null
+themes:
+- transportation-scheduling
+code_url: null
+pdf:
+  aam: true
+  journal: true
+  proof: false
+note: null

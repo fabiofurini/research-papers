@@ -1,0 +1,24 @@
+id: J22
+title: The Vertex k-cut Problem
+authors:
+- D. Cornaz
+- F. Furini
+- M. Lacroix
+- E. Malaguti
+- A. R. Mahjoub
+- S. Martin
+year: 2019
+kind: journal
+venue: Discrete Optimization, Elsevier.
+status: published
+doi: 10.1016/j.disopt.2018.07.003
+doi_url: https://doi.org/10.1016/j.disopt.2018.07.003
+preprint_url: null
+themes:
+- interdiction-blocker-vertex-cut
+code_url: null
+pdf:
+  aam: true
+  journal: true
+  proof: false
+note: null

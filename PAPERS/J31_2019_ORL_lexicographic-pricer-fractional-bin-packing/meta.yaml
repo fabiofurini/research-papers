@@ -1,0 +1,21 @@
+id: J31
+title: A lexicographic pricer for the fractional bin packing problem
+authors:
+- S. Coniglio
+- F. D'Andreagiovanni
+- F. Furini
+year: 2019
+kind: journal
+venue: Operations Research Letters, Springer.
+status: published
+doi: 10.1016/j.orl.2019.10.011
+doi_url: https://doi.org/10.1016/j.orl.2019.10.011
+preprint_url: null
+themes:
+- bin-packing-cutting-stock
+code_url: null
+pdf:
+  aam: true
+  journal: true
+  proof: false
+note: null

@@ -1,0 +1,22 @@
+id: J48
+title: Strength of the Upper Bounds for the Edge-Weighted Maximum Clique Problem
+authors:
+- F. Ciccarelli
+- V. Dose
+- F. Furini
+- M. Monaci
+year: 2026
+kind: journal
+venue: Discrete Applied Mathematics, Elsevier.
+status: accepted
+doi: 10.1016/j.dam.2026.09.019
+doi_url: https://doi.org/10.1016/j.dam.2026.09.019
+preprint_url: null
+themes:
+- clique-stable-set
+code_url: null
+pdf:
+  aam: false
+  journal: true
+  proof: false
+note: null

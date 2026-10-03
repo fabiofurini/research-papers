@@ -1,0 +1,21 @@
+id: J17
+title: Improving the Approximated Projected Perspective Reformulation by Dual Information
+authors:
+- A. Frangioni
+- F. Furini
+- C. Gentile
+year: 2017
+kind: journal
+venue: Operations Research Letters, Elsevier.
+status: published
+doi: 10.1016/j.orl.2017.08.001
+doi_url: https://doi.org/10.1016/j.orl.2017.08.001
+preprint_url: null
+themes:
+- decomposition-reformulation
+code_url: null
+pdf:
+  aam: true
+  journal: true
+  proof: false
+note: null

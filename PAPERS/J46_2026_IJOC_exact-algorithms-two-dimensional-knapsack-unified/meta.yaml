@@ -1,0 +1,24 @@
+id: J46
+title: 'Exact Algorithms for Two-Dimensional Knapsack Problems: A Unified Framework with New Benchmark
+  Results'
+authors:
+- S. Wang
+- R. Baldacci
+- F. Furini
+- L. Wei
+- Q. Liu
+year: 2026
+kind: journal
+venue: INFORMS Journal on Computing, INFORMS.
+status: accepted
+doi: null
+doi_url: null
+preprint_url: https://doi.org/10.2139/ssrn.5322387
+themes:
+- bin-packing-cutting-stock
+code_url: null
+pdf:
+  aam: false
+  journal: false
+  proof: true
+note: 'PDF ufficiale IJOC non ancora uscito: si usa la proof R3, da sostituire quando disponibile'

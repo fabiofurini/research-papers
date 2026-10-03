@@ -1,0 +1,18 @@
+id: C09
+title: Matheuristics for the Temporal Bin Packing Problem
+authors:
+- F. Furini and X. Shen
+year: 2015
+kind: conference
+venue: 11th Metaheuristics International Conference (MIC 2015), Agadir, Morocco, June 2015 (13 pages).
+status: published
+doi: null
+doi_url: null
+preprint_url: null
+themes: []
+code_url: null
+pdf:
+  aam: true
+  journal: true
+  proof: false
+note: null

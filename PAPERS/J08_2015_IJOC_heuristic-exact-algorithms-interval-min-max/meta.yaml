@@ -1,0 +1,22 @@
+id: J08
+title: Heuristic and exact algorithms for the interval min-max regret knapsack problem
+authors:
+- F. Furini
+- M. Iori
+- S. Martello
+- M. Yagiura
+year: 2015
+kind: journal
+venue: INFORMS Journal on Computing, INFORMS.
+status: published
+doi: 10.1287/ijoc.2014.0632
+doi_url: https://doi.org/10.1287/ijoc.2014.0632
+preprint_url: null
+themes:
+- knapsack
+code_url: null
+pdf:
+  aam: true
+  journal: true
+  proof: false
+note: null

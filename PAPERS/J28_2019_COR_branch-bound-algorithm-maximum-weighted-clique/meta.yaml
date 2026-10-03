@@ -1,0 +1,21 @@
+id: J28
+title: A new branch-and-bound algorithm for the Maximum Weighted Clique Problem
+authors:
+- P. San Segundo
+- F. Furini
+- J. Artieda
+year: 2019
+kind: journal
+venue: Computer & Operations Research, Elsevier.
+status: published
+doi: 10.1016/j.cor.2019.05.017
+doi_url: https://doi.org/10.1016/j.cor.2019.05.017
+preprint_url: null
+themes:
+- clique-stable-set
+code_url: null
+pdf:
+  aam: true
+  journal: true
+  proof: false
+note: null

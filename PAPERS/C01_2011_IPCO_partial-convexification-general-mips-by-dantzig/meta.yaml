@@ -1,0 +1,24 @@
+id: C01
+title: Partial convexification of general MIPs by Dantzig-Wolfe reformulation
+authors:
+- M. Bergner
+- A. Caprara
+- F. Furini
+- M.E. Lübbecke
+- E. Malaguti
+- E. Traversi
+year: 2011
+kind: conference
+venue: 15th International Conference on Integer Programming and Combinatorial Optimization (IPCO 2011),
+  New York, USA, June 2011 (12 pages).
+status: published
+doi: null
+doi_url: null
+preprint_url: null
+themes: []
+code_url: null
+pdf:
+  aam: true
+  journal: true
+  proof: false
+note: null

@@ -1,0 +1,21 @@
+id: J12
+title: Modeling Two-Dimensional Guillotine Cutting Problems via Integer Programming
+authors:
+- F. Furini
+- E. Malaguti
+- D. Thomopulos
+year: 2016
+kind: journal
+venue: INFORMS Journal on Computing, INFORMS.
+status: published
+doi: 10.1287/ijoc.2016.0710
+doi_url: https://doi.org/10.1287/ijoc.2016.0710
+preprint_url: null
+themes:
+- bin-packing-cutting-stock
+code_url: null
+pdf:
+  aam: true
+  journal: true
+  proof: false
+note: null

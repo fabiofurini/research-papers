@@ -1,0 +1,21 @@
+id: J16
+title: An effective dynamic programming algorithm for the minimum-cost maximal knapsack packing problem
+authors:
+- F. Furini
+- I. Ljubić
+- M. Sinnl
+year: 2017
+kind: journal
+venue: European Journal of Operational Research, Elsevier.
+status: published
+doi: 10.1016/j.ejor.2017.03.061
+doi_url: https://doi.org/10.1016/j.ejor.2017.03.061
+preprint_url: null
+themes:
+- knapsack
+code_url: null
+pdf:
+  aam: true
+  journal: true
+  proof: false
+note: null

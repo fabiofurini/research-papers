@@ -1,0 +1,22 @@
+id: J43
+title: 'CliSAT: a new exact algorithm for hard maximum clique problems'
+authors:
+- P. San Segundo
+- F. Furini
+- D. Alvarez
+- P. Pardalos
+year: 2023
+kind: journal
+venue: European Journal of Operational Research, Elsevier.
+status: published
+doi: 10.1016/j.ejor.2022.10.028
+doi_url: https://doi.org/10.1016/j.ejor.2022.10.028
+preprint_url: null
+themes:
+- clique-stable-set
+code_url: null
+pdf:
+  aam: true
+  journal: true
+  proof: false
+note: null

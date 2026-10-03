@@ -1,0 +1,21 @@
+id: J14
+title: Solving Vertex Coloring Problems as Maximum Weight Stable Set Problems
+authors:
+- D. Cornaz
+- F. Furini
+- E. Malaguti
+year: 2017
+kind: journal
+venue: Discrete Applied Mathematics, Elsevier.
+status: published
+doi: 10.1016/j.dam.2016.09.018
+doi_url: https://doi.org/10.1016/j.dam.2016.09.018
+preprint_url: null
+themes:
+- graph-coloring
+code_url: null
+pdf:
+  aam: true
+  journal: true
+  proof: false
+note: null

@@ -1,0 +1,73 @@
+bin-packing-cutting-stock:
+  name: Bin Packing e Cutting Stock
+  journal:
+  - 2
+  - 4
+  - 12
+  - 31
+  - 32
+  - 40
+  - 42
+  - 44
+  - 46
+knapsack:
+  name: Knapsack Problems
+  journal:
+  - 3
+  - 8
+  - 10
+  - 16
+  - 18
+  - 20
+  - 34
+  - 38
+graph-coloring:
+  name: Colorazione di Grafi
+  journal:
+  - 1
+  - 14
+  - 15
+  - 21
+  - 30
+  - 35
+clique-stable-set:
+  name: Clique e Stable Set
+  journal:
+  - 26
+  - 27
+  - 28
+  - 43
+  - 48
+  - 33
+interdiction-blocker-vertex-cut:
+  name: Interdiction, Blocker e Vertex Cut
+  journal:
+  - 22
+  - 29
+  - 36
+  - 37
+  - 45
+covering-location-submodular:
+  name: Covering, Location e Submodularità
+  journal:
+  - 25
+  - 41
+decomposition-reformulation:
+  name: Decomposizione e Riformulazione
+  journal:
+  - 6
+  - 11
+  - 17
+quadratic-programming:
+  name: Programmazione Quadratica Binaria
+  journal:
+  - 23
+  - 24
+transportation-scheduling:
+  name: Ottimizzazione nei Trasporti
+  journal:
+  - 7
+  - 9
+  - 13
+  - 19
+  - 47

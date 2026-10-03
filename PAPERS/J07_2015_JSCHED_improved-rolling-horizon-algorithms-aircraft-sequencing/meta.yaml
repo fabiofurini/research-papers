@@ -1,0 +1,22 @@
+id: J07
+title: Improved Rolling Horizon Algorithms for the Aircraft Sequencing Problem
+authors:
+- F. Furini
+- M. P. Kidd
+- C. Persiani
+- P. Toth
+year: 2015
+kind: journal
+venue: Journal of Scheduling, Springer.
+status: published
+doi: 10.1007/s10951-014-0415-8
+doi_url: https://doi.org/10.1007/s10951-014-0415-8
+preprint_url: null
+themes:
+- transportation-scheduling
+code_url: null
+pdf:
+  aam: true
+  journal: true
+  proof: false
+note: null

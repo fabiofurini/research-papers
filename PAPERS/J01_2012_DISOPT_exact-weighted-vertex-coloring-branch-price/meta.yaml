@@ -1,0 +1,20 @@
+id: J01
+title: Exact Weighted Vertex Coloring via Branch-and-Price
+authors:
+- F. Furini
+- E. Malaguti
+year: 2012
+kind: journal
+venue: Discrete Optimization, Elsevier.
+status: published
+doi: 10.1016/j.disopt.2012.03.002
+doi_url: https://doi.org/10.1016/j.disopt.2012.03.002
+preprint_url: null
+themes:
+- graph-coloring
+code_url: null
+pdf:
+  aam: true
+  journal: true
+  proof: false
+note: null

@@ -1,0 +1,24 @@
+id: J02
+title: A Column Generation Heuristic for the Two-Dimensional Two-Staged Guillotine Cutting Stock Problem
+  with Multiple Stock Size
+authors:
+- F. Furini
+- E. Malaguti
+- R. Medina Durán
+- A. Persiani
+- P. Toth
+year: 2012
+kind: journal
+venue: European Journal of Operational Research, Elsevier.
+status: published
+doi: 10.1016/j.ejor.2011.10.018
+doi_url: https://doi.org/10.1016/j.ejor.2011.10.018
+preprint_url: null
+themes:
+- bin-packing-cutting-stock
+code_url: null
+pdf:
+  aam: true
+  journal: true
+  proof: false
+note: null

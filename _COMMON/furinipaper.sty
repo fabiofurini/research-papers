@@ -1,0 +1,142 @@
+%% furinipaper.sty — preambolo comune per le versioni aperte dei paper
+%% Classe di base: article. Nessuna dipendenza da classi di editori.
+%% Uso:
+%%   \documentclass[11pt,a4paper]{article}
+%%   \usepackage{furinipaper}
+%% I pacchetti per gli algoritmi NON sono caricati qui (algorithm2e e
+%% algorithm/algorithmic sono incompatibili): li carica il singolo paper.
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{furinipaper}[2026/10/03 v1.0 Versione aperta dei paper di Fabio Furini]
+
+%% ---------------------------------------------------------------- opzioni
+\newif\ifFP@numbersec \FP@numbersectrue
+\DeclareOption{nonumber}{\FP@numbersecfalse}
+\newif\ifFP@onehalf \FP@onehalftrue
+\DeclareOption{singlespacing}{\FP@onehalffalse}
+\ProcessOptions\relax
+
+%% ------------------------------------------------------------- codifiche
+\RequirePackage[T1]{fontenc}
+\RequirePackage[utf8]{inputenc}
+\RequirePackage[english]{babel}
+\RequirePackage{microtype}
+
+%% ------------------------------------------------------------- impaginato
+\RequirePackage[a4paper,margin=2.6cm]{geometry}
+\RequirePackage{setspace}
+\ifFP@onehalf\onehalfspacing\fi
+\RequirePackage{parskip}
+
+%% ------------------------------------------------------------ matematica
+\RequirePackage{amsmath}
+\RequirePackage{amssymb}
+\RequirePackage{amsfonts}
+\RequirePackage{amsthm}
+\RequirePackage{mathrsfs}
+\RequirePackage{latexsym}
+
+%% --------------------------------------------------- figure e tabelle
+\RequirePackage{graphicx}
+\RequirePackage{booktabs}
+\RequirePackage{multirow}
+\RequirePackage{longtable}
+\RequirePackage{array}
+\RequirePackage{rotating}
+\RequirePackage{lscape}
+\RequirePackage{float}
+\RequirePackage{colortbl}
+\RequirePackage{adjustbox}
+\RequirePackage[font=small,labelfont=bf]{caption}
+\RequirePackage{subcaption}
+\RequirePackage{xcolor}
+\RequirePackage{tikz}
+\usetikzlibrary{patterns,fit,arrows,arrows.meta,shapes,positioning,calc,decorations.markings}
+
+%% ------------------------------------------------------------- varie
+\RequirePackage{url}
+\RequirePackage{xspace}
+\RequirePackage{paralist}
+\RequirePackage{appendix}
+\RequirePackage{enumitem}
+
+%% ------------------------------- compatibilita' con pacchetti superati
+%% subfigure e epsfig sono obsoleti ma ricorrono nei sorgenti originali:
+%% qui si usano subcaption e graphicx, e si rimappano i vecchi comandi.
+\providecommand{\subfigure}[2][]{%
+  \begin{subfigure}{0.45\textwidth}\centering#2\caption{#1}\end{subfigure}}
+\providecommand{\epsfig}[1]{\includegraphics{#1}}
+\providecommand{\psfig}[1]{\includegraphics{#1}}
+
+%% ------------------------------------------------------- bibliografia
+\RequirePackage[round,authoryear]{natbib}
+\bibliographystyle{plainnat}
+
+%% ------------------------------------------------------------- rimandi
+\RequirePackage[colorlinks=true,citecolor=blue,urlcolor=blue,
+                linkcolor=blue,bookmarks=true]{hyperref}
+\RequirePackage{cleveref}
+
+%% ---------------------------------------------------------- teoremi
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{property}[theorem]{Property}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{observation}[theorem]{Observation}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{note}[theorem]{Note}
+
+%% ------------------------------------------------- parole chiave
+\newcommand{\FP@keywords}{}
+\newcommand{\keywords}[1]{\renewcommand{\FP@keywords}{#1}}
+\newcommand{\printkeywords}{%
+  \ifx\FP@keywords\@empty\else
+    \par\medskip\noindent\textbf{Keywords:} \FP@keywords\par
+  \fi}
+
+%% -------------------------------------------- riquadro della citazione
+%% \published{rivista}{dettagli}{doi}
+%% Stampa in testa alla prima pagina la nota che identifica questa come
+%% versione d'autore e rimanda alla versione ufficiale.
+\newcommand{\FP@journal}{}\newcommand{\FP@details}{}\newcommand{\FP@doi}{}
+\newcommand{\published}[3]{%
+  \renewcommand{\FP@journal}{#1}\renewcommand{\FP@details}{#2}%
+  \renewcommand{\FP@doi}{#3}}
+\newcommand{\printpublicationnote}{%
+  \ifx\FP@journal\@empty\else
+  \begin{center}
+  \fcolorbox{gray!40}{gray!6}{%
+    \parbox{0.93\textwidth}{\small\setstretch{1.08}
+      \textbf{Author's version.} This is the accepted manuscript of a paper
+      published in \emph{\FP@journal}\ifx\FP@details\@empty\else, \FP@details\fi.
+      The version of record is available at
+      \ifx\FP@doi\@empty \emph{the publisher's site}%
+      \else\href{https://doi.org/\FP@doi}{\texttt{doi.org/\FP@doi}}\fi.
+      \\[2pt]
+      Typeset from the original sources in a publisher-neutral format;
+      the content matches the published version.}}
+  \end{center}
+  \medskip
+  \fi}
+
+%% --------------------------------------------------- titolo completo
+%% \makefrontmatter{abstract}
+\newcommand{\makefrontmatter}[1]{%
+  \maketitle
+  \printpublicationnote
+  \begin{abstract}#1\end{abstract}
+  \printkeywords
+  \medskip}
+
+\ifFP@numbersec\else\setcounter{secnumdepth}{0}\fi
+
+\endinput

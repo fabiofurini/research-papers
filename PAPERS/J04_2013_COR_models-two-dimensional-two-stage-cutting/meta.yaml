@@ -1,0 +1,20 @@
+id: J04
+title: Models for the Two-Dimensional Two-Stage Cutting Stock Problem with Multiple Stock Size
+authors:
+- F. Furini
+- E. Malaguti
+year: 2013
+kind: journal
+venue: Computer & Operations Research, Elsevier.
+status: published
+doi: 10.1016/j.cor.2013.02.026
+doi_url: https://doi.org/10.1016/j.cor.2013.02.026
+preprint_url: null
+themes:
+- bin-packing-cutting-stock
+code_url: null
+pdf:
+  aam: true
+  journal: true
+  proof: false
+note: null

@@ -1,0 +1,22 @@
+id: J40
+title: Variable and constraint reduction techniques for the temporal bin packing problem with fire-ups
+authors:
+- J. Martinovic
+- N. Strasdat
+- J. Valerio de Carvalho
+- F. Furini
+year: 2022
+kind: journal
+venue: Optimization Letters, Springer.
+status: published
+doi: 10.1007/s11590-021-01825-x
+doi_url: https://doi.org/10.1007/s11590-021-01825-x
+preprint_url: null
+themes:
+- bin-packing-cutting-stock
+code_url: null
+pdf:
+  aam: true
+  journal: true
+  proof: false
+note: null

@@ -1,0 +1,25 @@
+id: J06
+title: Automatic Dantzig-Wolfe Reformulation of Mixed Integer Programs
+authors:
+- M. Bergner
+- A. Caprara
+- A. Ceselli
+- F. Furini
+- M. E. Lübbecke
+- E. Malaguti
+- E. Traversi
+year: 2015
+kind: journal
+venue: Mathematical Programming, Springer.
+status: published
+doi: 10.1007/s10107-014-0761-5
+doi_url: https://doi.org/10.1007/s10107-014-0761-5
+preprint_url: null
+themes:
+- decomposition-reformulation
+code_url: null
+pdf:
+  aam: true
+  journal: true
+  proof: false
+note: null

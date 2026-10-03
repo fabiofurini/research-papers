@@ -1,0 +1,22 @@
+id: J20
+title: On the Product Knapsack Problem
+authors:
+- C. D'Ambrosio
+- F. Furini
+- M. Monaci
+- E. Traversi
+year: 2018
+kind: journal
+venue: Optimization Letters, Springer.
+status: published
+doi: 10.1007/s11590-017-1227-5
+doi_url: https://doi.org/10.1007/s11590-017-1227-5
+preprint_url: null
+themes:
+- knapsack
+code_url: null
+pdf:
+  aam: true
+  journal: true
+  proof: false
+note: null

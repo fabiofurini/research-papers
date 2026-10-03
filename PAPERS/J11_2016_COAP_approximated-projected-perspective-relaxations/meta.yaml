@@ -1,0 +1,21 @@
+id: J11
+title: Approximated Projected Perspective Relaxations
+authors:
+- A. Frangioni
+- F. Furini
+- C. Gentile
+year: 2016
+kind: journal
+venue: Computational Optimization and Applications, Springer.
+status: published
+doi: 10.1007/s10589-015-9787-8
+doi_url: https://doi.org/10.1007/s10589-015-9787-8
+preprint_url: null
+themes:
+- decomposition-reformulation
+code_url: null
+pdf:
+  aam: true
+  journal: true
+  proof: false
+note: null

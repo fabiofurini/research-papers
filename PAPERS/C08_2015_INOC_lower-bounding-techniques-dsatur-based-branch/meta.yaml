@@ -1,0 +1,20 @@
+id: C08
+title: Lower Bounding Techniques for DSATUR-based Branch and Bound
+authors:
+- F. Furini
+- V. Gabrel
+- I. C. Ternier
+year: 2015
+kind: conference
+venue: 7th International Network Optimization Conference (INOC 2015), Warsaw, Poland, June 2015 (8 pages).
+status: published
+doi: null
+doi_url: null
+preprint_url: null
+themes: []
+code_url: null
+pdf:
+  aam: true
+  journal: true
+  proof: false
+note: null

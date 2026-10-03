@@ -1,0 +1,23 @@
+id: C05
+title: State space reduced dynamic programming for the aircraft sequencing problem with constrained position
+  shifting
+authors:
+- F. Furini
+- M. P. Kidd
+- A. Persiani
+- P. Toth
+year: 2014
+kind: conference
+venue: 4th International Symposium on Combinatorial Optimization (ISCO 2014), Lisbon, Portugal, March
+  2014 (12 pages).
+status: published
+doi: null
+doi_url: null
+preprint_url: null
+themes: []
+code_url: null
+pdf:
+  aam: true
+  journal: true
+  proof: false
+note: null

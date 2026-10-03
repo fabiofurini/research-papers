@@ -1,0 +1,22 @@
+id: J30
+title: A note on Selective line-graphs and partition colorings
+authors:
+- D. Cornaz
+- F. Furini
+- E. Malaguti
+- A. Santini
+year: 2019
+kind: journal
+venue: Operations Research Letters, Springer.
+status: published
+doi: 10.1016/j.orl.2019.08.005
+doi_url: https://doi.org/10.1016/j.orl.2019.08.005
+preprint_url: null
+themes:
+- graph-coloring
+code_url: null
+pdf:
+  aam: true
+  journal: true
+  proof: false
+note: null

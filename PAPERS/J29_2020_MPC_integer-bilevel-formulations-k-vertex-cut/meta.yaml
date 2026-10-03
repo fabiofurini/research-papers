@@ -1,0 +1,22 @@
+id: J29
+title: On Integer and Bilevel Formulations for the k-Vertex Cut Problem
+authors:
+- F. Furini
+- I. Ljubic
+- E. Malaguti
+- P. Paronuzzi
+year: 2020
+kind: journal
+venue: Mathematical Programming Computation, Springer.
+status: published
+doi: 10.1007/s12532-019-00167-1
+doi_url: https://doi.org/10.1007/s12532-019-00167-1
+preprint_url: null
+themes:
+- interdiction-blocker-vertex-cut
+code_url: null
+pdf:
+  aam: true
+  journal: true
+  proof: false
+note: null

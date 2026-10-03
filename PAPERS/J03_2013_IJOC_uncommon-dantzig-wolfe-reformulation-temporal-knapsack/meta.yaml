@@ -1,0 +1,21 @@
+id: J03
+title: Uncommon Dantzig-Wolfe Reformulation for the Temporal Knapsack Problem
+authors:
+- A. Caprara
+- F. Furini
+- E. Malaguti
+year: 2013
+kind: journal
+venue: INFORMS Journal on Computing, INFORMS.
+status: published
+doi: 10.1287/ijoc.1120.0521
+doi_url: https://doi.org/10.1287/ijoc.1120.0521
+preprint_url: null
+themes:
+- knapsack
+code_url: null
+pdf:
+  aam: true
+  journal: true
+  proof: false
+note: null

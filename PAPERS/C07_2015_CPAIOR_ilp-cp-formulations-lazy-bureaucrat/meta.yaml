@@ -1,0 +1,21 @@
+id: C07
+title: ILP and CP Formulations for the Lazy Bureaucrat Problem
+authors:
+- I. Ljubic
+- F. Furini
+- M. Sinnl
+year: 2015
+kind: conference
+venue: 12th International Conference on Integration of Artificial Intelligence and Operations Research
+  Techniques in Constraint Programming (CPAIOR 2015), Barcelona, Spain, May 2015 (15 pages).
+status: published
+doi: null
+doi_url: null
+preprint_url: null
+themes: []
+code_url: null
+pdf:
+  aam: true
+  journal: true
+  proof: false
+note: null
