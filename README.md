@@ -10,7 +10,7 @@ Sapienza University of Rome), organised by research theme.
 
 | Path | Contents |
 |---|---|
-| `PAPERS/<id>/` | One directory per paper. `meta.yaml` (authors, venue, DOI, theme, code link) and `pdf/aam.pdf`, the author accepted manuscript. |
+| `PAPERS/<id>/` | One directory per paper: `meta.yaml` (authors, venue, DOI, theme, code link) and the paper PDF. |
 | `_INDEX/publications.yaml` | Complete index of all publications, in CV order. |
 | `_INDEX/themes.yaml` | The nine research themes, with the papers belonging to each. |
 
@@ -29,17 +29,22 @@ conference papers, following the numbering of the author's CV.
 - **Binary Quadratic Programming** — linearisation techniques and the QPLIB library
 - **Transportation & Scheduling** — air and rail traffic optimisation
 
-## Why the accepted manuscript and not the published PDF
+## Which version is published here
 
-For most publishers (Elsevier, Springer, Wiley, IEEE, INFORMS) the copyright
-transfer agreement assigns the rights to the typeset article to the publisher.
-What authors retain the right to share is the **author accepted manuscript**
-(AAM): the manuscript as accepted after peer review, without the publisher's
-typesetting. The scientific content is identical — only the layout differs.
+The PDF published for each paper is an **author's version typeset in a uniform,
+publisher-neutral format** (LaTeX `article` class), produced from the original
+sources. The content matches the accepted manuscript; the layout is consistent
+across the whole archive and carries no publisher branding.
+
+This is what authors retain the right to share: for most publishers (Elsevier,
+Springer, Wiley, IEEE, INFORMS) the copyright transfer agreement assigns the
+rights to the *typeset* article to the publisher, not to the author's manuscript.
 
 Every paper links to its **DOI**, which resolves to the version of record on the
-publisher's site. Where the article was published open access, the publisher PDF
-is available there under its own licence.
+publisher's site.
+
+A small number of older conference papers have no surviving LaTeX sources; for
+those the accepted manuscript PDF is published instead.
 
 LaTeX sources are not published in this repository.
 
