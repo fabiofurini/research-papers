@@ -10,8 +10,8 @@ kind: conference
 venue: 9th International Conference on Control, Decision and Information Technologies (CoDIT 2023), Rome,
   Italy, July 2023 (4 pages).
 status: published
-doi: null
-doi_url: null
+doi: 10.1109/codit58514.2023.10284073
+doi_url: https://doi.org/10.1109/codit58514.2023.10284073
 preprint_url: null
 themes: []
 code_url: null

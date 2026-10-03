@@ -1323,7 +1323,7 @@
   kind: conference
   venue: 15th International Conference on Integer Programming and Combinatorial Optimization (IPCO 2011),
     New York, USA, June 2011 (12 pages).
-  doi: null
+  doi: 10.1007/978-3-642-20807-2_4
   themes: []
   folder: C01_2011_IPCO_partial-convexification-general-mips-by-dantzig
   code_url: null
@@ -1347,7 +1347,7 @@
   kind: conference
   venue: 3rd International Symposium on Combinatorial Optimization (ISCO 2012), Athens, Greece, April
     2012 (12 pages).
-  doi: null
+  doi: 10.1007/978-3-642-32147-4_25
   themes: []
   folder: C02_2012_ISCO_aircraft-sequencing-rolling-horizon-algorithm
   code_url: null
@@ -1367,7 +1367,7 @@
   kind: conference
   venue: 12th International Symposium on Experimental Algorithms (SEA 2013), Rome, Italy, June 2013 (12
     pages).
-  doi: null
+  doi: 10.1007/978-3-642-38527-8_23
   themes: []
   folder: C03_2013_SEA_hybrid-sdp-bounding-procedure
   code_url: null
@@ -1386,7 +1386,7 @@
   year: 2013
   kind: conference
   venue: 6th International Network Optimization Conference (INOC 2013), Tenerife, Spain, May 2013 (8 pages).
-  doi: null
+  doi: 10.1016/j.endm.2013.05.094
   themes: []
   folder: C04_2013_INOC_fast-heuristic-approach-train-timetabling-railway
   code_url: null
@@ -1408,7 +1408,7 @@
   kind: conference
   venue: 4th International Symposium on Combinatorial Optimization (ISCO 2014), Lisbon, Portugal, March
     2014 (12 pages).
-  doi: null
+  doi: 10.1007/978-3-319-09174-7_23
   themes: []
   folder: C05_2014_ISCO_state-space-reduced-dynamic-programming-aircraft
   code_url: null
@@ -1438,7 +1438,7 @@
   kind: conference
   venue: International Conference on Control, Decision and Information Technologies (CoDIT 2014), Metz,
     France, November 2014 (8 pages).
-  doi: null
+  doi: 10.1109/codit.2014.6996889
   themes: []
   folder: C06_2014_CODIT_mathematical-formulations-balanced-vertex-k-separator
   code_url: null
@@ -1481,7 +1481,7 @@
   kind: conference
   venue: 12th International Conference on Integration of Artificial Intelligence and Operations Research
     Techniques in Constraint Programming (CPAIOR 2015), Barcelona, Spain, May 2015 (15 pages).
-  doi: null
+  doi: 10.1007/978-3-319-18008-3_18
   themes: []
   folder: C07_2015_CPAIOR_ilp-cp-formulations-lazy-bureaucrat
   code_url: null
@@ -1503,7 +1503,7 @@
   year: 2015
   kind: conference
   venue: 7th International Network Optimization Conference (INOC 2015), Warsaw, Poland, June 2015 (8 pages).
-  doi: null
+  doi: 10.1016/j.endm.2016.03.020
   themes: []
   folder: C08_2015_INOC_lower-bounding-techniques-dsatur-based-branch
   code_url: null
@@ -1521,7 +1521,7 @@
   year: 2015
   kind: conference
   venue: 11th Metaheuristics International Conference (MIC 2015), Agadir, Morocco, June 2015 (13 pages).
-  doi: null
+  doi: 10.1007/978-3-319-58253-5_19
   themes: []
   folder: C09_2015_MIC_matheuristics-temporal-bin-packing
   code_url: null
@@ -1542,7 +1542,7 @@
   kind: conference
   venue: 5th International Symposium on Combinatorial Optimization (ISCO 2016), Vietri sul Mare, Italy,
     May 2016 (12 pages).
-  doi: null
+  doi: 10.1007/978-3-319-45587-7_11
   themes: []
   folder: C10_2016_ISCO_mip-formulations-rich-real-world-lot
   code_url: null
@@ -1563,7 +1563,7 @@
   kind: conference
   venue: 8th International Network Optimization Conference (INOC 2017), Lisbon, Portugal, February 2017
     (10 pages).
-  doi: null
+  doi: 10.1016/j.endm.2018.01.023
   themes: []
   folder: C11_2017_INOC_ilp-models-column-generation-minimum-sum
   code_url: null
@@ -1587,7 +1587,7 @@
   kind: conference
   venue: 9th International Conference on Control, Decision and Information Technologies (CoDIT 2023),
     Rome, Italy, July 2023 (4 pages).
-  doi: null
+  doi: 10.1109/codit58514.2023.10284073
   themes: []
   folder: C12_2023_CODIT_branch-benders-cut-approach-solve-maximum
   code_url: null

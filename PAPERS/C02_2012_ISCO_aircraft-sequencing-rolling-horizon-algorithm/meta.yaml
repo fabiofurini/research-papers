@@ -9,8 +9,8 @@ kind: conference
 venue: 3rd International Symposium on Combinatorial Optimization (ISCO 2012), Athens, Greece, April 2012
   (12 pages).
 status: published
-doi: null
-doi_url: null
+doi: 10.1007/978-3-642-32147-4_25
+doi_url: https://doi.org/10.1007/978-3-642-32147-4_25
 preprint_url: null
 themes: []
 code_url: null

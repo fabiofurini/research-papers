@@ -9,8 +9,8 @@ kind: conference
 venue: 12th International Conference on Integration of Artificial Intelligence and Operations Research
   Techniques in Constraint Programming (CPAIOR 2015), Barcelona, Spain, May 2015 (15 pages).
 status: published
-doi: null
-doi_url: null
+doi: 10.1007/978-3-319-18008-3_18
+doi_url: https://doi.org/10.1007/978-3-319-18008-3_18
 preprint_url: null
 themes: []
 code_url: null

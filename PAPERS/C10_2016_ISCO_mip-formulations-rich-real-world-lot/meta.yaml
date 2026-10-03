@@ -10,8 +10,8 @@ kind: conference
 venue: 5th International Symposium on Combinatorial Optimization (ISCO 2016), Vietri sul Mare, Italy,
   May 2016 (12 pages).
 status: published
-doi: null
-doi_url: null
+doi: 10.1007/978-3-319-45587-7_11
+doi_url: https://doi.org/10.1007/978-3-319-45587-7_11
 preprint_url: null
 themes: []
 code_url: null

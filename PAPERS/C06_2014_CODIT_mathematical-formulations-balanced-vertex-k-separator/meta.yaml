@@ -12,8 +12,8 @@ kind: conference
 venue: International Conference on Control, Decision and Information Technologies (CoDIT 2014), Metz,
   France, November 2014 (8 pages).
 status: published
-doi: null
-doi_url: null
+doi: 10.1109/codit.2014.6996889
+doi_url: https://doi.org/10.1109/codit.2014.6996889
 preprint_url: null
 themes: []
 code_url: null

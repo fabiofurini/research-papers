@@ -52,6 +52,7 @@
     if (p.openpdf) links.push(`<a class="lk" href="${esc(p.openpdf)}" target="_blank" rel="noopener">Open-format PDF</a>`);
     if (p.code) links.push(`<a class="lk" href="${esc(p.code)}" target="_blank" rel="noopener">Code ↗</a>`);
     const tags = (p.themes || []).map(t => `<span class="tag">${esc(themeName(t))}</span>`).join('');
+    if (p.doi) links.push(`<button class="lk cite" type="button" data-id="${esc(p.id)}">Cite</button>`);
     return `<article class="paper" id="${esc(p.id)}">
       <div class="top">
         <span class="yr">${p.year}</span>
@@ -61,8 +62,8 @@
           <p class="vn">${esc(p.venue)}</p>
           ${tags ? `<div class="tags">${tags}</div>` : ''}
           <div class="links">${links.join('')}</div>
-          ${p.abstract ? `<button class="toggle" type="button">Show abstract</button>
-             <div class="abs">${esc(p.abstract)}</div>` : ''}
+          ${p.abstract ? `<div class="abs-preview">${esc(p.abstract)}</div>
+             <button class="toggle" type="button">Read more</button>` : ''}
         </div>
       </div>
     </article>`;
@@ -80,7 +81,21 @@
       btn.addEventListener('click', () => {
         const card = btn.closest('.paper');
         const open = card.classList.toggle('open');
-        btn.textContent = open ? 'Hide abstract' : 'Show abstract';
+        btn.textContent = open ? 'Show less' : 'Read more';
+      });
+    });
+    document.querySelectorAll('.cite').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const p = DATA.papers.find(x => x.id === btn.dataset.id);
+        const key = p.authors[0].split(' ').pop().replace(/\./g, '') + p.year + p.id;
+        const type = p.kind === 'journal' ? 'article' : 'inproceedings';
+        const field = p.kind === 'journal' ? 'journal' : 'booktitle';
+        const bib = `@${type}{${key},\n  author  = {${p.authors.join(' and ')}},\n`
+          + `  title   = {${p.title}},\n  ${field} = {${p.venue}},\n`
+          + `  year    = {${p.year}},\n` + (p.doi ? `  doi     = {${p.doi}},\n` : '') + `}`;
+        navigator.clipboard?.writeText(bib).then(
+          () => { btn.textContent = 'Copied'; setTimeout(() => btn.textContent = 'Cite', 1600); },
+          () => { window.prompt('BibTeX entry:', bib); });
       });
     });
     document.querySelectorAll('#chips .chip').forEach(c =>
