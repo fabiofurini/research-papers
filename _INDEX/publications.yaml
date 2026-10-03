@@ -152,7 +152,7 @@
     Our findings support the idea that Dantzig–Wolfe reformulation may hold more promise as a general-purpose
     tool than previously acknowledged by the research community'
 - id: J07
-  title: Improved Rolling Horizon Algorithms for the Aircraft Sequencing Problem
+  title: Improved rolling horizon approaches to the aircraft sequencing problem
   authors:
   - F. Furini
   - M. P. Kidd
@@ -278,7 +278,7 @@
     Knapsack Problem instances through computation of strong dual bounds, which could not be obtained
     by exploiting the best-known previous approach based on DWR
 - id: J11
-  title: Approximated Projected Perspective Relaxations
+  title: 'Approximated perspective relaxations: a project and lift approach'
   authors:
   - A. Frangioni
   - F. Furini
@@ -388,7 +388,7 @@
     as Maximum Weight Stable Set Problems on an associated graph. We exploit Available online 29 September
     2016 the transformation proposed by Cornaz and Jost (2008), where given a graph G, an auxiliary'
 - id: J15
-  title: An improved DSATUR-based Branch and Bound for the Vertex Coloring Problem
+  title: An Improved DSATUR-Based Branch-and-Bound Algorithm for the Vertex Coloring Problem
   authors:
   - F. Furini
   - V. Gabrel
@@ -479,7 +479,7 @@
     of eﬃciently solving all the instances of the literature and turns out to be the best algorithm for
     instances with a low number of classes
 - id: J19
-  title: Tighter MIP formulations for Barge Container Ship Routing
+  title: Tighter MIP models for Barge Container Ship Routing
   authors:
   - L. Alfandari
   - T. Davidovic
@@ -765,7 +765,7 @@
     Paris-Dauphine, Paris, France 2 ESSEC Business School of Paris, Cergy, France 3 DEI, University of
     Bologna, Bologna, Italy
 - id: J30
-  title: A note on Selective line-graphs and partition colorings
+  title: A note on selective line-graphs and partition colorings
   authors:
   - D. Cornaz
   - F. Furini

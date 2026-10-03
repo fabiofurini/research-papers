@@ -21,7 +21,8 @@ pdf:
   aam: true
   journal: true
   proof: false
-note: null
+note: Il sorgente LaTeX in archivio e una bozza anteriore (titolo "Vertex k-Separator Problem"), non la
+  versione pubblicata. Si pubblica il PDF degli atti. Serve il sorgente finale.
 abstract: Given an indirected graph G = (V, E), a Vertex design (see, e.g., [2], [13]). The GP problems
   related to these k-Separator is a subset of the vertex set V such that, when the areas have been widely
   studied in the literature, but typically separator is removed from the graph, the remaining vertices

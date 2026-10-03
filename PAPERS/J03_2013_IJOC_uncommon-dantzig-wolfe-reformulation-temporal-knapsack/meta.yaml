@@ -18,7 +18,8 @@ pdf:
   aam: true
   journal: true
   proof: false
-note: null
+note: 'Il sorgente aveva la bibliografia disattivata: 14 voci sono state ricostruite dal PDF pubblicato
+  (open/extra.bib). Da verificare.'
 abstract: We study a natural generalization of the knapsack problem, in which each item exists only for
   a given time interval. One has to select a subset of the items (as in the classical case), guaranteeing
   that for each time instant the set of existing selected items has total weight not larger than the knapsack

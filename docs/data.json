@@ -126,7 +126,7 @@
   },
   {
    "id": "J07",
-   "title": "Improved Rolling Horizon Algorithms for the Aircraft Sequencing Problem",
+   "title": "Improved rolling horizon approaches to the aircraft sequencing problem",
    "authors": [
     "F. Furini",
     "M. P. Kidd",
@@ -208,7 +208,7 @@
   },
   {
    "id": "J11",
-   "title": "Approximated Projected Perspective Relaxations",
+   "title": "Approximated perspective relaxations: a project and lift approach",
    "authors": [
     "A. Frangioni",
     "F. Furini",
@@ -288,7 +288,7 @@
   },
   {
    "id": "J15",
-   "title": "An improved DSATUR-based Branch and Bound for the Vertex Coloring Problem",
+   "title": "An Improved DSATUR-Based Branch-and-Bound Algorithm for the Vertex Coloring Problem",
    "authors": [
     "F. Furini",
     "V. Gabrel",
@@ -368,7 +368,7 @@
   },
   {
    "id": "J19",
-   "title": "Tighter MIP formulations for Barge Container Ship Routing",
+   "title": "Tighter MIP models for Barge Container Ship Routing",
    "authors": [
     "L. Alfandari",
     "T. Davidovic",
@@ -604,7 +604,7 @@
   },
   {
    "id": "J30",
-   "title": "A note on Selective line-graphs and partition colorings",
+   "title": "A note on selective line-graphs and partition colorings",
    "authors": [
     "D. Cornaz",
     "F. Furini",
@@ -906,7 +906,7 @@
    "code": "https://github.com/fabiofurini/bpp-numerically-exact",
    "abstract": "We propose a numerically exact algorithm for solving the Bin-Packing Problem (BPP) based on a branch-price-and-cut framework combined with a pattern-enumeration method. Key to the algorithm is a novel technique for the computation of numerically safe dual bounds for the widely adopted set covering reformulation of the BPP (tightened with additional valid inequalities) with a precision that is higher than the one of general- purpose oating-point solvers. Our branch-price-and-cut algorithm also relies on an exact integer ( xed-point) label setting algorithm for solving the pricing problem associated with the tightened set-covering formulation. To the best of our knowledge, ours is the rst algo- rithm for the BPP that is numerically exact and practical for solving large-scale instances. Extensive computational results on instances affected by notorious numerical dif culties fi (those of the Augmented Non-IRUP class) show that our exact algorithm outperforms all of the not numerically exact state-of-the-art algorithms based on branch-and-cut-and-price techniques that rely on a set-covering formulation of the BPP",
    "pdf": "papers/J44_2024_IJOC_numerically-exact-algorithm-bin-packing/paper.pdf",
-   "pdfkind": "aam"
+   "pdfkind": "open"
   },
   {
    "id": "J45",
@@ -1106,7 +1106,7 @@
    "code": null,
    "abstract": "Given an indirected graph G = (V, E), a Vertex design (see, e.g., [2], [13]). The GP problems related to these k-Separator is a subset of the vertex set V such that, when the areas have been widely studied in the literature, but typically separator is removed from the graph, the remaining vertices can the developed algorithms try to find heuristic or approximated be partitioned into k subsets that are pairwise edge-disconnected. solutions. Most exact methods are restricted to the bipartization In this paper we focus on the Balanced Vertex k-Separator case, and rely on the branch-and-bound framework. Problem, i.e., the problem of finding a minimum cardinality separator such that the sizes of the resulting disconnected subsets are balanced. We present a compact Integer Linear Programming Another well-known family of problems are the Vertex k- formulation for the problem, and present a polyhedral study separator problems. Given a simple undirected graph G = of the associated polytope. We also present an Exponential- (V, E) a Vertex k-Separator (VKS) in G, for k ≥ 2, is a Size formulation, for which we derive a column generation subset of vertices V0 ⊆ V such that V \\ V0 can be partitioned and a branching scheme. Preliminary computational results are into k subsets V1 , ..., Vk that are pairwise disconnected, i.e., reported comparing the performance of the two formulations on there is no edge between two subsets Vi and Vj for all a set of benchmark instances. i ̸= j ∈ {1, . . . , k}. If the cardinality of each subset Vi , i ∈ {1, . . . , k}, is larger than or equal to an integer b(n), then I. I NTRODUCTION V0 is called a Cardinality Constraint VKS (MCVKS) [1],[3],[4]. Graph partitioning (GP) is a fundamental family of prob- If the difference of cardinality between all pairs of subsets Vi , lems with applications in many areas. For this, it has received Vj , i ̸= j ∈ {1, ..., k}, is bounded by an integer q, then V0 is within the past few years a great attention from both theoretical called a Balanced VKS (BVKS). The CCVKS (resp. BVKS) and practical points of view. The graph partitioning problems Problem (CCVKSP) (resp. (BVKSP)) consists in finding a for an undirected graph G = (V, E) ask for a partition of the CCVKS (resp. BVKS) of minimum cardinality. Both problems vertex set V into pairwise disjoint subsets with some additional are NP-hard in general. properties. For instance, given a positivie integer k, the k-way The BVKSP has interesting applications in many fields, for partition problem consists in partitioning the vertex set into k example in parallel simulation of physical movements. The elements while minimizing the number of edges whose ends movement of a physical system (electric circuit, motor for belong to different elements of the partition. In the k-terminal example) can be modeled by a differential algebraic equation way version, k vertices are also given and each element of the system.",
    "pdf": "papers/C06_2014_CODIT_mathematical-formulations-balanced-vertex-k-separator/paper.pdf",
-   "pdfkind": "open"
+   "pdfkind": "aam"
   },
   {
    "id": "C07",
