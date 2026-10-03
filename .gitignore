@@ -1,20 +1,42 @@
-# Materiale privato: non va pubblicato
-# Corrispondenza editoriale originale (referee report, lettere, bozze intermedie)
+# ============================================================
+# Public repository: paper PDFs and metadata only.
+# Everything else stays in the local Dropbox archive.
+# ============================================================
+
+# No LaTeX sources are published
+*.tex
+*.sty
+*.cls
+*.bst
+*.bib
+
+# Original sources, including editorial correspondence
+# (referee reports, response letters, intermediate drafts)
 PAPERS/*/latex/
-# PDF editoriali: diritto dell'editore, non ridistribuibile
+
+# Publisher-typeset PDFs: copyright held by the publisher
 PAPERS/*/pdf/journal.pdf
 PAPERS/*/pdf/proof.pdf
-# Archivio di lavoro, superato dalla nuova struttura PAPERS/
+
+# open/ : only the compiled PDF is published, never the sources
+PAPERS/*/open/*
+!PAPERS/*/open/main.pdf
+
+# Superseded working trees
 /LATEX/
 /PDF/
 /LIST_OF_PUBBLICATIONS/
 /EXTRA/
-# File di sistema
-.DS_Store
+
+# Build artefacts
 *.aux
 *.log
 *.out
 *.fls
 *.fdb_latexmk
 *.synctex.gz
+*.blg
+*.bbl
+.DS_Store
 .directory
+PIANO_PAPERI.md
