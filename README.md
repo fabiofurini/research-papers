@@ -4,6 +4,10 @@ Public archive of the peer-reviewed publications of **Fabio Furini**
 (Department of Computer, Control and Management Engineering "Antonio Ruberti",
 Sapienza University of Rome), organised by research theme.
 
+This is a data repository, not a website: it holds the metadata and the PDFs.
+The publications are presented at **https://fabiofurini.github.io/publications/**,
+which is generated from the files kept here.
+
 **48 journal articles** and **12 conference papers**, 2011–2026.
 
 ## What is here
