@@ -4,7 +4,8 @@ Public archive of the peer-reviewed publications of **Fabio Furini**
 (Department of Computer, Control and Management Engineering "Antonio Ruberti",
 Sapienza University of Rome), organised by research theme.
 
-This is a data repository, not a website: it holds the metadata and the PDFs.
+This is a metadata repository, not a website. The PDFs are served by the
+website; this repository is the versioned record of what each paper is.
 The publications are presented at **https://fabiofurini.github.io/publications/**,
 which is generated from the files kept here.
 
@@ -14,7 +15,7 @@ which is generated from the files kept here.
 
 | Path | Contents |
 |---|---|
-| `PAPERS/<id>/` | One directory per paper: `meta.yaml` (authors, venue, DOI, theme, code link) and the paper PDF. |
+| `PAPERS/<id>/` | One directory per paper: `meta.yaml` — authors, venue, DOI, research theme, abstract, code link. |
 | `_INDEX/publications.yaml` | Complete index of all publications, in CV order. |
 | `_INDEX/themes.yaml` | The nine research themes, with the papers belonging to each. |
 

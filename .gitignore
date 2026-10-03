@@ -14,13 +14,10 @@
 # (referee reports, response letters, intermediate drafts)
 PAPERS/*/latex/
 
-# Publisher-typeset PDFs: copyright held by the publisher
-PAPERS/*/pdf/journal.pdf
-PAPERS/*/pdf/proof.pdf
-
-# open/ : only the compiled PDF is published, never the sources
-PAPERS/*/open/*
-!PAPERS/*/open/main.pdf
+# PDFs are not kept here: they are published by the website repository
+# (fabiofurini.github.io) and the full archive lives in Dropbox.
+PAPERS/*/open/
+PAPERS/*/pdf/
 
 # Superseded working trees
 /LATEX/
