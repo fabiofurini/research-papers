@@ -14,7 +14,7 @@ doi_url: https://doi.org/10.1016/j.ejor.2019.03.047
 preprint_url: null
 themes:
 - clique-stable-set
-code_url: null
+code_url: https://github.com/psanse/BBEWC
 pdf:
   aam: true
   journal: true

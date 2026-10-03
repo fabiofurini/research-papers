@@ -16,7 +16,7 @@ doi_url: null
 preprint_url: https://doi.org/10.2139/ssrn.5322387
 themes:
 - bin-packing-cutting-stock
-code_url: null
+code_url: https://github.com/INFORMSJoC/2025.1423
 pdf:
   aam: false
   journal: false

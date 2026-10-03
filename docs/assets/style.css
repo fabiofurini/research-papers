@@ -117,3 +117,10 @@ footer.site .wrap{display:flex;flex-wrap:wrap;gap:16px;justify-content:space-bet
   header.site nav{gap:12px}
   header.site nav a.hide-sm{display:none}
 }
+
+/* ---------- profile links ---------- */
+.profiles{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0 0}
+.profiles a{display:inline-flex;align-items:center;font-size:.86rem;font-weight:550;
+  padding:6px 13px;border-radius:999px;border:1px solid var(--border);
+  background:var(--surface);color:var(--muted);transition:all .14s}
+.profiles a:hover{color:var(--accent);border-color:var(--accent);background:var(--accent-soft);text-decoration:none}

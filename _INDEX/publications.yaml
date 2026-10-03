@@ -700,7 +700,7 @@
   themes:
   - clique-stable-set
   folder: J27_2019_EJOR_branch-bound-algorithm-maximum-edge-weighted
-  code_url: null
+  code_url: https://github.com/psanse/BBEWC
   abstract: We study the maximum edge-weighted clique problem, a problem related to the maximum (vertexweighted)
     clique problem which asks for finding a complete subgraph (i.e., a clique) of maximum total weight
     on its edges. The problem appears in a wide range of applications, including bioinformatics, material
@@ -865,7 +865,7 @@
   themes:
   - knapsack
   folder: J34_2021_EJOR_combinatorial-branch-bound-algorithm-knapsack-conflicts
-  code_url: null
+  code_url: https://github.com/psanse/KPCG
   abstract: 'We study the Knapsack Problem with Conflicts, a generalization of the Knapsack Problem in
     which a set of conflicts specifies pairs of items which cannot be simultaneously selected. In this
     work, we propose a novel combinatorial branch-and-bound algorithm for this problem based on an n-ary
@@ -1004,7 +1004,7 @@
   doi: 10.1016/j.ejor.2021.09.014
   themes: []
   folder: J39_2022_EJOR_branch-filter-exact-algorithm-binary-constraint
-  code_url: null
+  code_url: https://github.com/psanse/Bfilt
   abstract: A binary constraint satisfaction problem (BCSP) consists in determining an assignment of values
     to variables that is compatible with a set of constraints. The problem is called binary because the
     constraints involve only pairs of variables. The BCSP is a cornerstone problem in Constraint Programming
@@ -1145,7 +1145,7 @@
   themes:
   - clique-stable-set
   folder: J43_2023_EJOR_clisat-exact-algorithm-hard-maximum-clique
-  code_url: null
+  code_url: https://github.com/psanse/CliSAT
   abstract: Given a graph, the maximum clique problem (MCP) asks for determining a complete subgraph with
     the largest possible number of vertices. We propose a new exact algorithm, called CliSAT, to solve
     the MCP to proven optimality. This problem is of fundamental importance in graph theory and combinatorial
@@ -1231,7 +1231,7 @@
   themes:
   - bin-packing-cutting-stock
   folder: J46_2026_IJOC_exact-algorithms-two-dimensional-knapsack-unified
-  code_url: null
+  code_url: https://github.com/INFORMSJoC/2025.1423
   abstract: 'This paper investigates two-dimensional knapsack problems modeled as papers to INFORMS journals
     by means the Generalized Two-Dimensional Knapsack Problem (G2KP), a variant not previ- of a style
     file template, which includes ously studied in the literature. The importance of the G2KP lies in

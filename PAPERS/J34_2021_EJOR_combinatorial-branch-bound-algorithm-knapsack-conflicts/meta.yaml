@@ -13,7 +13,7 @@ doi_url: https://doi.org/10.1016/j.ejor.2020.07.023
 preprint_url: null
 themes:
 - knapsack
-code_url: null
+code_url: https://github.com/psanse/KPCG
 pdf:
   aam: true
   journal: true

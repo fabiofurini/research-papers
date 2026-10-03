@@ -556,7 +556,7 @@
    "themes": [
     "clique-stable-set"
    ],
-   "code": null,
+   "code": "https://github.com/psanse/BBEWC",
    "abstract": "We study the maximum edge-weighted clique problem, a problem related to the maximum (vertexweighted) clique problem which asks for finding a complete subgraph (i.e., a clique) of maximum total weight on its edges. The problem appears in a wide range of applications, including bioinformatics, material science, computer vision, robotics, and many more. In this work, we propose a new combinatorial branch-and-bound algorithm for the problem which relies on a novel bounding procedure capable of pruning a very large amount of nodes of the branch-and-bound tree. Extensive computational experiments on random and structured graphs, encompassing standard benchmarks used in the literature as well as recently introduced real-world large-scale graphs, show that our new algorithm outperforms the state-of-the-art by several orders of magnitude on many instances",
    "pdf": "papers/J27_2019_EJOR_branch-bound-algorithm-maximum-edge-weighted/aam.pdf",
    "openpdf": null
@@ -699,7 +699,7 @@
    "themes": [
     "knapsack"
    ],
-   "code": null,
+   "code": "https://github.com/psanse/KPCG",
    "abstract": "We study the Knapsack Problem with Conflicts, a generalization of the Knapsack Problem in which a set of conflicts specifies pairs of items which cannot be simultaneously selected. In this work, we propose a novel combinatorial branch-and-bound algorithm for this problem based on an n-ary branching scheme. Our algorithm effectively combines different procedures for pruning the branch-and-bound nodes based on different relaxations of the Knapsack Problem with Conflicts. Its main elements of novelty are: (i) the adoption of the branching-and-pruned set branching scheme which, while extensively used in the maximum-clique literature, was never successfully employed for solving the Knapsack Problem with Conflicts; (ii) the adoption of the Multiple-Choice Knapsack Problem for the derivation of upper bounds used for pruning the branch-and-bound tree nodes; and (iii) the design of a new upper bound for the latter problem which can be computed very eﬃciently. Key to our algorithm is its high pruning potential and the low computational effort that it requires to process each branch-and-bound node. An extensive set of experiments carried out on the benchmark instances typically used in the literature shows that, for edge densities ranging from 0.1 to 0.9, our algorithm is faster by up to two orders of magnitude than the state-of-the-art method and by up to several orders of magnitude than a state-of-the-art mixed-integer linear programming solver",
    "pdf": "papers/J34_2021_EJOR_combinatorial-branch-bound-algorithm-knapsack-conflicts/aam.pdf",
    "openpdf": null
@@ -800,7 +800,7 @@
    "venue": "European Journal of Operational Research",
    "doi": "10.1016/j.ejor.2021.09.014",
    "themes": [],
-   "code": null,
+   "code": "https://github.com/psanse/Bfilt",
    "abstract": "A binary constraint satisfaction problem (BCSP) consists in determining an assignment of values to variables that is compatible with a set of constraints. The problem is called binary because the constraints involve only pairs of variables. The BCSP is a cornerstone problem in Constraint Programming (CP), appearing in a very wide range of real-world applications. In this work, we develop a new exact algorithm which effectively solves the BCSP by reformulating it as a k-clique problem on the underlying microstructure graph representation. Our new algorithm exploits the cutting-edge branching scheme of the stateof-the-art maximum clique algorithms combined with two filtering phases in which the domains of the variables are reduced. Our filtering phases are based on colouring techniques and on heuristically solving an associated boolean satisfiability (SAT) problem. In addition, the algorithm initialization phase performs a reordering of the microstructure graph vertices that produces an often easier reformulation to solve. We carry out an extensive computational campaign on a benchmark of almost 20 0 0 instances, encompassing numerous real and synthetic problems from the literature. The performance of the new algorithm is compared against four SAT-based solvers and three general purpose CP solvers. Our tests reveal that the new algorithm significantly outperforms all the others in several classes of BCSP instances",
    "pdf": "papers/J39_2022_EJOR_branch-filter-exact-algorithm-binary-constraint/aam.pdf",
    "openpdf": null
@@ -883,7 +883,7 @@
    "themes": [
     "clique-stable-set"
    ],
-   "code": null,
+   "code": "https://github.com/psanse/CliSAT",
    "abstract": "Given a graph, the maximum clique problem (MCP) asks for determining a complete subgraph with the largest possible number of vertices. We propose a new exact algorithm, called CliSAT, to solve the MCP to proven optimality. This problem is of fundamental importance in graph theory and combinatorial optimization due to its practical relevance for a wide range of applications. The newly developed exact approach is a combinatorial branch-and-bound algorithm that exploits the state-of-the-art branching scheme enhanced by two new bounding techniques with the goal of reducing the branching tree. The first one is based on graph colouring procedures and partial maximum satisfiability problems arising in the branching scheme. The second one is a filtering phase based on constraint programming and domain propagation techniques. CliSAT is designed for structured MCP instances which are computationally diﬃcult to solve since they are dense and contain many interconnected large cliques. Extensive experiments on hard benchmark instances, as well as new hard instances arising from different applications, show that CliSAT outperforms the state-of-the-art MCP algorithms, in some cases by several orders of magnitude",
    "pdf": "papers/J43_2023_EJOR_clisat-exact-algorithm-hard-maximum-clique/aam.pdf",
    "openpdf": null
@@ -946,7 +946,7 @@
    "themes": [
     "bin-packing-cutting-stock"
    ],
-   "code": null,
+   "code": "https://github.com/INFORMSJoC/2025.1423",
    "abstract": "This paper investigates two-dimensional knapsack problems modeled as papers to INFORMS journals by means the Generalized Two-Dimensional Knapsack Problem (G2KP), a variant not previ- of a style file template, which includes ously studied in the literature. The importance of the G2KP lies in its crucial role in the journal title. However, use of a tem- designing Branch-Price-and-Cut (BPC) algorithms for the classical Two-Dimensional plate does not certify that the paper Bin-Packing Problem. We propose a novel and effective exact solution framework has been accepted for publication in that incorporates both non-numerically exact and numerically exact algorithms tai- the named journal. INFORMS journal lored to G2KP. The framework also achieves state-of-the-art performance on the well- templates are for the exclusive purpose known Two-Dimensional Knapsack Problem (with and without item conflicts) and the of submitting to an INFORMS journal Two-Dimensional Orthogonal Packing Problem, solving several previously unsolved and are not intended to be a true repre- instances and establishing new benchmark results. These findings highlight the frame- sentation of the article’s final published work’s potential to inspire algorithmic developments for pricing problems in related form. Use of this template to distribute BPC methods and higher-dimensional packing problems. To support future research, papers in print or online or to submit we make the algorithm code, instance data, and detailed results publicly available. papers to another non-INFORM publi- Funding: This study was supported by the Natural Science Foundation of China cation is prohibited. [Grants 72271062 and 52575565], the Science and Technology Projects in Guangzhou [Grant 2024A04J01019], and the Province Natural Science Fund of Guangdong [Grants 2025A1515011297 and 2024A1515010246]",
    "pdf": null,
    "openpdf": null

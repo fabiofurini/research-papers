@@ -12,7 +12,7 @@ doi: 10.1016/j.ejor.2021.09.014
 doi_url: https://doi.org/10.1016/j.ejor.2021.09.014
 preprint_url: null
 themes: []
-code_url: null
+code_url: https://github.com/psanse/Bfilt
 pdf:
   aam: true
   journal: true
