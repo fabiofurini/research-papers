@@ -9,8 +9,8 @@ year: 2025
 kind: journal
 venue: European Journal of Operational Research, Elsevier.
 status: published
-doi: 10.2139/ssrn.4494082
-doi_url: https://doi.org/10.2139/ssrn.4494082
+doi: 10.1016/j.ejor.2025.02.013
+doi_url: https://doi.org/10.1016/j.ejor.2025.02.013
 preprint_url: null
 themes:
 - interdiction-blocker-vertex-cut

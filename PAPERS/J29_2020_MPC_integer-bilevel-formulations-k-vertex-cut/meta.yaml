@@ -14,7 +14,7 @@ doi_url: https://doi.org/10.1007/s12532-019-00167-1
 preprint_url: null
 themes:
 - interdiction-blocker-vertex-cut
-code_url: null
+code_url: https://github.com/paoloparonuzzi/k-Vertex-Cut-Problem
 pdf:
   aam: true
   journal: true

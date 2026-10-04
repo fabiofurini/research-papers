@@ -15,7 +15,7 @@ doi_url: https://doi.org/10.1287/opre.2021.2110
 preprint_url: null
 themes:
 - interdiction-blocker-vertex-cut
-code_url: null
+code_url: https://github.com/paoloparonuzzi/CVSP
 pdf:
   aam: true
   journal: true
