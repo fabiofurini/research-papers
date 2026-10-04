@@ -22,7 +22,7 @@ doi_url: https://doi.org/10.1007/s12532-018-0147-4
 preprint_url: null
 themes:
 - quadratic-programming
-code_url: https://github.com/fabiofurini/QPLIB
+code_url: https://qplib.zib.de
 pdf:
   aam: true
   journal: true
