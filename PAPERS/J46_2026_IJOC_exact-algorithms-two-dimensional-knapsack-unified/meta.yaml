@@ -10,18 +10,18 @@ authors:
 year: 2026
 kind: journal
 venue: INFORMS Journal on Computing, INFORMS.
-status: accepted
-doi: null
-doi_url: null
+status: published
+doi: 10.1287/ijoc.2025.1423
+doi_url: https://doi.org/10.1287/ijoc.2025.1423
 preprint_url: https://doi.org/10.2139/ssrn.5322387
 themes:
 - bin-packing-cutting-stock
 code_url: https://github.com/INFORMSJoC/2025.1423
 pdf:
   aam: false
-  journal: false
-  proof: true
-note: 'PDF ufficiale IJOC non ancora uscito: si usa la proof R3, da sostituire quando disponibile'
+  journal: true
+  proof: false
+note: 'Published online in Articles in Advance on 23 October 2026.'
 abstract: This paper investigates two-dimensional knapsack problems modeled as a Generalized Two-Dimensional
   Knapsack Problem, which has not been studied previously in the literature and whose importance arises
   in designing Branch-Price-and-Cut (BPC) algorithms for the classic Two-Dimensional Bin-Packing Problem.

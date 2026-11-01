@@ -1,0 +1,31 @@
+id: J49
+title: Branch-and-Price Strikes Back for the k-Vertex Cut Problem
+authors:
+- F. Ciccarelli
+- F. Furini
+- C. Hojny
+- M.E. Lübbecke
+year: 2026
+kind: journal
+venue: INFORMS Journal on Optimization, INFORMS.
+status: accepted
+doi: null
+doi_url: null
+preprint_url: null
+themes:
+- interdiction-blocker-vertex-cut
+code_url: https://github.com/FabioCiccarelli/BP_k-vertex-cut
+pdf:
+  aam: false
+  journal: false
+  proof: false
+note: 'Accepted 25 October 2026 (manuscript IJO-2025-12-0121.R2); final publication details pending.'
+abstract: >-
+  Given an undirected graph, the k-vertex cut problem asks for a minimum-cost set
+  of vertices whose removal yields at least k connected components. We introduce
+  an extended integer linear programming formulation that unifies and strengthens
+  existing models and forms the basis of a branch-and-price algorithm. The method
+  combines tailored branching rules, valid inequalities and symmetry handling.
+  It dominates the linear relaxations of previous formulations and substantially
+  improves the state of the art in both instances solved to optimality and running
+  times.
