@@ -5,7 +5,7 @@ che lo riguarda. Alimenta la pagina delle pubblicazioni del sito personale.
 
 ```
 100_PAPERI/
-├── PAPERS/        60 paper — 48 di rivista (J01–J48), 12 di conferenza (C01–C12)
+├── PAPERS/        62 paper — 50 di rivista (J01–J50), 12 di conferenza (C01–C12)
 ├── _COMMON/       furinipaper.sty, il preambolo LaTeX condiviso
 ├── _INDEX/        indice e temi di ricerca
 └── _ORIGINALE/    i vecchi alberi, superati ma conservati

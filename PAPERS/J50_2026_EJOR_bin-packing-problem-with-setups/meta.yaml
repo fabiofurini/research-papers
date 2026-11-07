@@ -1,0 +1,29 @@
+id: J50
+title: 'The Bin Packing Problem with Setups: Formulations, Structural Properties and Computational Insights'
+authors:
+- R. Baldacci
+- F. Ciccarelli
+- S. Coniglio
+- V. Dose
+- F. Furini
+year: 2026
+kind: journal
+venue: European Journal of Operational Research, Elsevier.
+status: accepted
+doi: null
+doi_url: null
+preprint_url: https://arxiv.org/abs/2509.10075
+themes:
+- bin-packing-cutting-stock
+code_url: null
+pdf:
+  aam: false
+  journal: false
+  proof: false
+note: 'Accepted 7 November 2026 (manuscript EJOR-D-25-02976R2); final publication details pending.'
+abstract: >-
+  We study the Bin Packing Problem with Setups, where packing items from a class
+  in a bin incurs an additional setup weight and cost. The paper compares a
+  natural integer programming formulation with an arc-flow formulation, derives
+  strengthening inequalities and bounds, and evaluates both models on generated
+  and real-world instances.
