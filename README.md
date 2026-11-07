@@ -54,8 +54,9 @@ Se quei sorgenti saltano fuori, basta metterli in `latex/` e rigenerare.
   precedenti e la tesi di dottorato, che **non** stanno altrove.
 - **`J03`**: il sorgente aveva la bibliografia disattivata. Le 14 voci mancanti
   sono state ricostruite dal PDF pubblicato (`open/extra.bib`) — **da verificare**.
-- La cartella è sotto `git`, ma versiona **solo i metadati**: i PDF e i sorgenti
-  restano qui in Dropbox e non vengono caricati.
+- La cartella è sotto `git`: normalmente versiona solo i metadati. Su richiesta,
+  la versione d'autore di J50 (`open/main.pdf`) è pubblicata anche nel repository
+  GitHub. I sorgenti LaTeX e gli altri PDF restano in Dropbox.
 
 ## Il sito
 
